@@ -98,9 +98,34 @@ Para trocar a foto de uma composição, edite a lista `DESTAQUES` em
 `tools/build-destaques.js` (cada item tem `src`, `ratio`, `zoom` e `foco`) e
 rode `npm run destaques`.
 
-**As fotos não trazem nome de sabor.** As legendas dizem apenas que são pizzas
-da casa — assim nenhuma imagem promete um recheio específico. Os sabores ficam
-na lista do cardápio, que veio do cardápio impresso.
+**As fotos de composição não trazem nome de sabor.** As legendas dizem apenas
+que são pizzas da casa — assim nenhuma imagem promete um recheio específico.
+
+### Foto de cada sabor no cardápio
+
+No cardápio, tocar no nome de um sabor abre a foto **daquele** sabor. Só entram
+os sabores com foto confirmada: uma foto errada faria o site prometer um
+recheio que não é o do prato.
+
+Hoje são **2** — `Mussarela` e `Calabresa` —, as únicas que vieram nomeadas
+pelo fotógrafo (pasta "Icones iFood"). As outras 360 fotos têm nome genérico
+(`sottiles-salgadas-47`), e deduzir o sabor pela aparência não é seguro:
+uma "4 queijos" e uma "5 queijos" são a mesma foto para quem olha de fora.
+
+**Para acrescentar um sabor:**
+
+```bash
+npm run contato      # gera as folhas em tools/contato-sabores/
+```
+
+1. Abra as folhas. Cada foto tem o nome do arquivo embaixo.
+2. Ache a foto do sabor e anote o nome.
+3. Acrescente uma linha na lista `SABORES`, em `tools/build-destaques.js`:
+   `{ sabor: 'portuguesa', src: 'pizzas-salgadas/sottiles-salgadas-47' }`
+4. No `cardapio.html`, no `<li>` daquele sabor, acrescente `data-foto="portuguesa"`.
+5. `npm run destaques` e depois `npm run bundle` / `npm run unico`.
+
+Quem não tem foto continua item comum: sem seta, sem clique. Nada quebra.
 
 ---
 

@@ -937,6 +937,34 @@ button{font:inherit;color:inherit}
 }
 .itens--preco .item{grid-template-columns:1fr}
 .itens--preco .item b,.itens--preco .item span{grid-column:1}
+
+/* --------- sabor com foto ---------
+   Só os sabores com foto CONFIRMADA recebem data-foto (ver SABORES em
+   tools/build-destaques.js). Quem nao tem foto continua sendo um item comum,
+   sem seta e sem clique — melhor nao abrir nada do que abrir a foto errada. */
+.item[data-foto]{cursor:pointer;padding-right:2.8rem}
+.item[data-foto]::after{
+  content:"";position:absolute;right:1.15rem;top:1.4rem;
+  width:8px;height:8px;
+  border-right:2px solid var(--ambar);border-bottom:2px solid var(--ambar);
+  transform:rotate(45deg);
+  transition:transform var(--t-s) var(--e-io);
+}
+.item[data-foto].is-aberto::after{transform:rotate(-135deg)}
+/* 0fr -> 1fr anima a altura sem precisar saber o tamanho da imagem */
+.item__foto{
+  grid-column:1 / -1;
+  display:grid;grid-template-rows:0fr;margin-top:0;
+  transition:grid-template-rows var(--t-m) var(--e-io),margin-top var(--t-m) var(--e-io);
+}
+.item.is-aberto .item__foto{grid-template-rows:1fr;margin-top:.9rem}
+.item__foto > span{overflow:hidden;border-radius:12px;display:block}
+.item__foto img{
+  width:100%;aspect-ratio:1;object-fit:cover;display:block;
+  transform:scale(1.06);
+  transition:transform 1s var(--e-out);
+}
+.item.is-aberto .item__foto img{transform:scale(1)}
 .preco{
   font:600 .85rem/1 var(--texto);font-style:normal;color:var(--ambar);
   background:rgba(242,178,92,.14);padding:.34rem .55rem;border-radius:6px;

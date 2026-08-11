@@ -23,10 +23,35 @@ const OPT = { limitInputPixels: false };
 
 fs.mkdirSync(OUT, { recursive: true });
 
+/* =============================================================
+   FOTO DE CADA SABOR (cardápio)
+   -------------------------------------------------------------
+   No cardápio, tocar no nome de um sabor abre a foto dele. Só entram nesta
+   lista os sabores cuja foto é CERTA — uma foto errada faria o site prometer
+   um recheio que não é o do prato.
+
+   Hoje só duas são confirmadas, porque vieram nomeadas pelo fotógrafo na
+   pasta "Icones iFood". As outras 360 fotos do acervo têm nome genérico
+   (sottiles-salgadas-47), e adivinhar o sabor pela aparência não é seguro.
+
+   PARA ACRESCENTAR UM SABOR:
+   1. abra as folhas de contato em tools/contato-sabores/ (numeradas)
+   2. ache a foto do sabor e anote o número
+   3. acrescente uma linha aqui:  { sabor: 'portuguesa', src: 'pizzas-salgadas/sottiles-salgadas-47' }
+   4. no cardapio.html, no <li> do sabor, acrescente:  data-foto="portuguesa"
+   5. rode  npm run destaques
+   ============================================================= */
+const SABORES = [
+  { sabor: 'mussarela', src: 'icones-ifood/mussarela', zoom: 0.9, foco: 0.02 },
+  // a pizza fica na metade esquerda do quadro; a garrafa sai no recorte
+  { sabor: 'calabresa', src: 'icones-ifood/calabresa-e-coca-de-600', zoom: 0.78, focoX: -0.17, foco: 0.01 },
+];
+
 /**
- * ratio: proporcao final (largura/altura). null mantem a original.
- * foco:  deslocamento vertical do recorte, -0.5 a 0.5. Negativo sobe.
- * zoom:  <1 fecha o enquadramento (corta as bordas).
+ * ratio:  proporcao final (largura/altura). null mantem a original.
+ * foco:   deslocamento vertical do recorte, -0.5 a 0.5. Negativo sobe.
+ * focoX:  deslocamento horizontal. Negativo vai para a esquerda.
+ * zoom:   <1 fecha o enquadramento (corta as bordas).
  */
 const DESTAQUES = [
   // ---- HOME · hero ----------------------------------------------------
@@ -84,17 +109,18 @@ const DESTAQUES = [
 ];
 
 /** Recorte central com proporcao alvo, com zoom e deslocamento vertical. */
-function recortar(img, meta, { ratio, zoom = 1, foco = 0 }) {
+function recortar(img, meta, { ratio, zoom = 1, foco = 0, focoX = 0 }) {
   if (!ratio) return img;
   let w = meta.width;
   let h = Math.round(w / ratio);
   if (h > meta.height) { h = meta.height; w = Math.round(h * ratio); }
   w = Math.round(w * zoom); h = Math.round(h * zoom);
 
-  const left = Math.round((meta.width - w) / 2);
+  const esqIdeal = Math.round((meta.width - w) / 2 + focoX * meta.width);
+  const left = Math.max(0, Math.min(meta.width - w, esqIdeal));
   const topIdeal = Math.round((meta.height - h) / 2 + foco * meta.height);
   const top = Math.max(0, Math.min(meta.height - h, topIdeal));
-  return img.extract({ left: Math.max(0, left), top, width: w, height: h });
+  return img.extract({ left, top, width: w, height: h });
 }
 
 (async () => {
@@ -117,6 +143,22 @@ function recortar(img, meta, { ratio, zoom = 1, foco = 0 }) {
     }
     console.log('  ✓', d.nome, d.larguras.join('/'));
   }
+
+  console.log('\n› Fotos de sabor do cardápio');
+  for (const s of SABORES) {
+    const origem = path.join(SRC, `${s.src}-1600.webp`);
+    if (!fs.existsSync(origem)) { console.error(`  ✗ nao encontrei ${s.src}`); continue; }
+    const meta = await sharp(origem, OPT).metadata();
+    for (const w of [380, 560, 780]) {
+      await recortar(sharp(origem, OPT).rotate(), meta, { ratio: 1, ...s })
+        .resize({ width: w, withoutEnlargement: true })
+        .webp({ quality: 76, effort: 6 })
+        .toFile(path.join(OUT, `sabor-${s.sabor}-${w}.webp`));
+      gerados++;
+    }
+    console.log('  ✓', s.sabor);
+  }
+  console.log(`  ${SABORES.length} sabores com foto — os outros não abrem foto até serem mapeados`);
 
   const total = fs.readdirSync(OUT).reduce((a, f) => a + fs.statSync(path.join(OUT, f)).size, 0);
   console.log(`\n${gerados} arquivos gerados. assets/img/: ${(total / 1024 / 1024).toFixed(2)} MB`);

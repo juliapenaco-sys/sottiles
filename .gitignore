@@ -4,3 +4,6 @@ Thumbs.db
 
 # Arquivos compactados gerados a partir da propria pasta
 *.zip
+
+# folhas de contato: material de trabalho, regeravel com npm run contato
+tools/contato-sabores/

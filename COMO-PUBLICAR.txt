@@ -1,0 +1,62 @@
+SITE DA SOTTILE'S PIZZARIA — COMO PUBLICAR
+==========================================
+
+Você recebeu este arquivo .zip com o site pronto. Não precisa instalar nada,
+nem saber programar. São 3 passos.
+
+
+PASSO 1 — Descompacte
+---------------------
+Clique com o botão direito no .zip e escolha "Extrair tudo".
+Vai aparecer uma pasta com estes arquivos dentro:
+
+    index.html          <- a página inicial
+    cardapio.html       <- a página do cardápio
+    assets/             <- imagens, fontes, estilos (NÃO apague)
+    robots.txt
+    site.webmanifest
+
+IMPORTANTE: mantenha tudo junto. Se separar o index.html da pasta assets,
+o site abre sem imagem e sem formatação.
+
+
+PASSO 2 — Publique
+------------------
+Abra:  https://app.netlify.com/drop
+
+Arraste a PASTA INTEIRA (não um arquivo solto) para dentro da área indicada
+na página. O envio leva menos de um minuto.
+
+Não precisa criar conta para testar. Para o endereço não expirar, crie uma
+conta gratuita quando ele pedir.
+
+
+PASSO 3 — Pegue o endereço
+--------------------------
+A Netlify vai gerar um endereço parecido com:
+
+    https://algum-nome-aleatorio.netlify.app
+
+Esse já é o site no ar. Em "Site settings > Change site name" dá para trocar
+por algo como "sottilespizzaria.netlify.app".
+
+
+PARA VER ANTES DE PUBLICAR
+--------------------------
+Dê dois cliques em index.html. Ele abre no navegador direto do seu computador.
+
+
+QUANDO A PIZZARIA TIVER DOMÍNIO PRÓPRIO
+---------------------------------------
+Na Netlify: "Domain management > Add a domain". Ela explica o que apontar no
+registro.br. Depois disso, avise quem cuida do site: faltam três ajustes de
+SEO no <head> das páginas (canonical, og:url e o og:image com endereço
+completo), sem os quais o WhatsApp e o Facebook não mostram a imagem de prévia
+quando alguém compartilha o link.
+
+
+O QUE NÃO FAZER
+---------------
+- Não renomeie o index.html. Esse nome é o que faz o site abrir na raiz.
+- Não abra os arquivos no Word. Se precisar editar, use o Bloco de Notas.
+- Não apague a pasta assets.

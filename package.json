@@ -7,6 +7,7 @@
     "images": "node tools/build-images.js",
     "fotos": "node tools/build-fotos.js",
     "destaques": "node tools/build-destaques.js",
+    "contato": "node tools/build-contato.js",
     "bundle": "node tools/build-single-file.js",
     "unico": "node tools/build-unico.js",
     "start": "npx --yes serve . -l 5173",

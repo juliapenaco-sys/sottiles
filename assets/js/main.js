@@ -451,7 +451,51 @@
   }
 
   /* =========================================================
-     9. DETALHES
+     9. FOTO DO SABOR
+     Tocar no nome de um sabor abre a foto dele. So os itens com data-foto
+     participam — os demais nao tem foto confirmada e continuam itens comuns.
+     A imagem so e baixada no primeiro toque.
+     ========================================================= */
+  $$('.item[data-foto]').forEach(function (el) {
+    var base = el.getAttribute('data-foto');
+    var nome = (el.querySelector('b') || {}).textContent || 'pizza';
+
+    el.setAttribute('role', 'button');
+    el.setAttribute('tabindex', '0');
+    el.setAttribute('aria-expanded', 'false');
+
+    function alternar() {
+      var aberto = el.classList.toggle('is-aberto');
+      el.setAttribute('aria-expanded', aberto ? 'true' : 'false');
+      if (!aberto || el.querySelector('.item__foto')) return;
+
+      var caixa = document.createElement('div');
+      caixa.className = 'item__foto';
+      var moldura = document.createElement('span');
+      var img = document.createElement('img');
+      img.src = 'assets/img/sabor-' + base + '-380.webp';
+      img.srcset = 'assets/img/sabor-' + base + '-380.webp 380w, ' +
+                   'assets/img/sabor-' + base + '-560.webp 560w, ' +
+                   'assets/img/sabor-' + base + '-780.webp 780w';
+      img.sizes = '(max-width:599px) 88vw, 380px';
+      img.width = 380; img.height = 380;
+      img.loading = 'lazy'; img.decoding = 'async';
+      img.alt = 'Pizza ' + nome.trim().toLowerCase() + ' da Sottile\'s Pizzaria';
+      moldura.appendChild(img);
+      caixa.appendChild(moldura);
+      el.appendChild(caixa);
+    }
+
+    el.addEventListener('click', alternar);
+    el.addEventListener('keydown', function (e) {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      e.preventDefault();
+      alternar();
+    });
+  });
+
+  /* =========================================================
+     10. DETALHES
      ========================================================= */
   var ano = $('#ano');
   if (ano) ano.textContent = new Date().getFullYear();

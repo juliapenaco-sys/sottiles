@@ -8,6 +8,7 @@
     "fotos": "node tools/build-fotos.js",
     "destaques": "node tools/build-destaques.js",
     "bundle": "node tools/build-single-file.js",
+    "unico": "node tools/build-unico.js",
     "start": "npx --yes serve . -l 5173",
     "dev": "npx --yes serve . -l 5173"
   },

@@ -196,6 +196,20 @@ sabores" — ou até você buscar um ingrediente.
 topo e o corpo da página reserva espaço para ele não cobrir conteúdo. No
 computador ele não existe: lá o WhatsApp está no cabeçalho.
 
+**Cabeçalho sempre na tela.** Ele já escondeu ao descer para ganhar área útil,
+mas o vai-e-vem incomodava mais do que os 78 px que economizava — e o botão de
+pedido precisa estar sempre a um toque. Agora ele só troca de fundo.
+
+**Sem citar o Google no texto.** A prova social continua ("703 avaliações de
+clientes, média 4,5"), mas sem atribuir a plataforma. Os links de "Como chegar"
+continuam apontando para o Google Maps: ali é navegação, não avaliação.
+
+**Cuidado com `$` em substituição de texto.** No JavaScript, `$&` dentro da
+string de troca significa "o trecho encontrado" e `$$` vira um `$` literal.
+Os preços do cardápio são escritos como `R$&nbsp;19`, então qualquer
+`replace()` com string de troca os corrompe — foi assim que apareceu o
+"Rnbsp;19" no site. Nos scripts de build, a troca é **sempre por função**.
+
 **Rastreamento pronto.** Clique de WhatsApp dispara `clique_whatsapp` e clique
 de telefone dispara `clique_telefone`, os dois no `dataLayer` e no `gtag`, com o
 destino (`central`, `centro` ou `serra`). Basta instalar o GTM ou o GA4 para

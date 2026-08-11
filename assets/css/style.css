@@ -137,10 +137,9 @@ button{font:inherit;color:inherit}
   font:600 .7rem/1 var(--texto);
   letter-spacing:.24em;text-transform:uppercase;
   color:var(--ambar);
-  display:flex;align-items:center;gap:.7rem;
+  display:flex;align-items:center;
   margin-bottom:1.4rem;
 }
-.olho::before{content:"";width:30px;height:1px;background:currentColor;flex:none;opacity:.8}
 .claro .olho{color:var(--brasa)}
 
 .tit{
@@ -358,12 +357,15 @@ button{font:inherit;color:inherit}
 .claro .link{color:var(--verde)}
 
 /* ---------- 7. CABECALHO ---------- */
+/* O cabecalho fica SEMPRE na tela depois que a pessoa rola. Ja tentamos
+   escondê-lo ao descer para ganhar area util, mas o vai-e-vem incomoda mais
+   do que os 78px que economiza — e o botao de pedido precisa estar sempre
+   a um toque. */
 .topo{
   position:fixed;inset:0 0 auto;z-index:50;
   padding-top:env(safe-area-inset-top);
   transition:background-color var(--t-s) var(--e-suave),
-             box-shadow var(--t-s) var(--e-suave),
-             transform var(--t-m) var(--e-out);
+             box-shadow var(--t-s) var(--e-suave);
 }
 /* O texto do cabecalho e sempre creme, e ele passa por cima de secoes claras
    e escuras. Uma barra muito translucida vira um cinza turvo sobre o creme e
@@ -373,8 +375,6 @@ button{font:inherit;color:inherit}
 @supports (backdrop-filter:blur(8px)){
   .topo.is-fixo{background:rgba(6,20,10,.86);backdrop-filter:blur(16px) saturate(1.3)}
 }
-/* esconde ao descer, devolve ao subir: mais area util no celular */
-.topo.is-oculto{transform:translateY(-104%)}
 
 .topo__barra{
   width:100%;max-width:var(--env);margin-inline:auto;
@@ -383,7 +383,7 @@ button{font:inherit;color:inherit}
   display:flex;align-items:center;gap:.7rem;
 }
 .topo__logo{flex:none;line-height:0;transition:transform var(--t-s) var(--e-suave)}
-.topo__logo img{width:106px;height:auto;border-radius:7px}
+.topo__logo img{width:106px;height:auto}
 @media (hover:hover){.topo__logo:hover{transform:scale(1.04)}}
 .topo__links{display:none}
 .topo__cta{margin-left:auto;min-height:44px;padding:.55rem 1.15rem;font-size:.9rem}
@@ -1027,7 +1027,7 @@ button{font:inherit;color:inherit}
 
 /* ---------- 11. RODAPE ---------- */
 .rodape{background:var(--noite-2);color:#A9BCA8;padding:4rem 0 2.6rem;position:relative;overflow:hidden}
-.rodape__logo{width:150px;height:auto;border-radius:9px}
+.rodape__logo{width:150px;height:auto}
 .rodape__bordao{
   margin-top:1.3rem;
   font-family:var(--display);font-size:1.45rem;line-height:1.14;color:var(--creme);

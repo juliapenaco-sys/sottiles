@@ -48,10 +48,15 @@ let corpoCardapio = mainCardapio[1]
   .replace(/id="h1"/, 'id="h1-cardapio"')
   .replace(/aria-labelledby="h1"/, 'aria-labelledby="h1-cardapio"');
 
+/* ATENCAO: a substituicao TEM que ser por funcao.
+   Numa string de troca, o JavaScript trata "$&" como "o trecho encontrado".
+   O cardapio tem precos escritos como R$&nbsp;19 — em string, cada um viraria
+   "R</main>nbsp;19", quebrando o preco E injetando tags </main> falsas.
+   Foi exatamente esse o bug do "Rnbsp;" que apareceu no site. */
 html = html.replace(
   '</main>',
-  '</main>\n\n<!-- ══════════ CARDÁPIO (mesma página, mostrado pelo #cardapio) ══════════ -->\n' +
-  '<main id="pagina-cardapio" hidden>' + corpoCardapio + '</main>'
+  () => '</main>\n\n<!-- ══════════ CARDÁPIO (mesma página, mostrado pelo #cardapio) ══════════ -->\n' +
+        '<main id="pagina-cardapio" hidden>' + corpoCardapio + '</main>'
 );
 
 // links entre paginas viram ancoras internas

@@ -236,12 +236,8 @@
     var alturaDoc = document.body.scrollHeight - alturaJanela;
 
     // --- escritas ---
-    if (topo) {
-      var passouHero = y > (hero ? Math.min(hero.offsetHeight * 0.55, alturaJanela * 0.7) : 240);
-      topo.classList.toggle('is-fixo', y > 20);
-      // esconde ao descer depois do hero, devolve assim que sobe
-      topo.classList.toggle('is-oculto', passouHero && delta > 4 && !(menu && !menu.hidden));
-    }
+    // o cabecalho so troca de fundo; nunca sai da tela (ver .topo no style.css)
+    if (topo) topo.classList.toggle('is-fixo', y > 20);
     if (progresso && alturaDoc > 0) {
       raiz.style.setProperty('--lido', Math.min(y / alturaDoc, 1).toFixed(4));
     }

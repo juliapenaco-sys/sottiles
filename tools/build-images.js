@@ -91,17 +91,36 @@ const AMBIENTES = [
   }
 
   console.log('› Logotipo');
-  const logo = sharp(src('LOGO 3D - VETORIZADA.png'), OPT).trim({ threshold: 5 });
-  const logoBuf = await logo.toBuffer();
+  /* Versao com fundo transparente. O letreiro "SOTTILE'S" e branco: ele some
+     num fundo claro e aparece no escuro — que e o fundo do site inteiro.
+     O `trim` do sharp nao corta aqui (a borda e transparente com antialias),
+     entao achamos a caixa util pelo canal alfa, na mao. */
+  const logoOrigem = src('logo-sem-fundo.png');
+  const cru = await sharp(logoOrigem).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+  let minX = Infinity, minY = Infinity, maxX = -1, maxY = -1;
+  for (let y = 0; y < cru.info.height; y++) {
+    for (let x = 0; x < cru.info.width; x++) {
+      if (cru.data[(y * cru.info.width + x) * cru.info.channels + 3] > 16) {
+        if (x < minX) minX = x; if (x > maxX) maxX = x;
+        if (y < minY) minY = y; if (y > maxY) maxY = y;
+      }
+    }
+  }
+  const logoBuf = await sharp(logoOrigem, OPT)
+    .extract({ left: minX, top: minY, width: maxX - minX + 1, height: maxY - minY + 1 })
+    .toBuffer();
+
   for (const w of [200, 320, 440]) {
-    await sharp(logoBuf).resize({ width: w }).webp({ quality: 88, effort: 6 }).toFile(out(`logo-${w}.webp`));
+    await sharp(logoBuf).resize({ width: w }).webp({ quality: 90, effort: 6, alphaQuality: 100 }).toFile(out(`logo-${w}.webp`));
   }
   await sharp(logoBuf).resize({ width: 560 }).png({ compressionLevel: 9 }).toFile(out('logo.png'));
 
   console.log('› Mascote / icones');
   const lm = await sharp(logoBuf).metadata();
+  // o chef ocupa o primeiro terco do logotipo; os icones do app precisam de
+  // fundo solido, entao achatamos no verde da marca
   const mascotBuf = await sharp(logoBuf)
-    .extract({ left: 0, top: 0, width: Math.round(lm.width * 0.3), height: lm.height })
+    .extract({ left: 0, top: 0, width: Math.round(lm.width * 0.34), height: lm.height })
     .flatten({ background: '#226D2C' })
     .toBuffer();
   await sharp(mascotBuf).resize({ width: 480, height: 480, fit: 'contain', background: '#226D2C' })

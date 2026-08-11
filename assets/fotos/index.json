@@ -1,0 +1,4026 @@
+[
+  {
+    "slug": "cardapio-impressao",
+    "nome": "Cardápio para impressão",
+    "fotos": [
+      {
+        "categoria": "cardapio-impressao",
+        "base": "pagina-1-pizza-salgada-1-de-3-impressao",
+        "original": "Pagina 1 (Pizza salgada 1 de 3) impressão.jpg",
+        "largura": 2480,
+        "altura": 3508,
+        "arquivos": [
+          "pagina-1-pizza-salgada-1-de-3-impressao-480.webp",
+          "pagina-1-pizza-salgada-1-de-3-impressao-1600.webp"
+        ]
+      },
+      {
+        "categoria": "cardapio-impressao",
+        "base": "pagina-10-bebidas-4-de-4-impressao",
+        "original": "Pagina 10 (Bebidas 4 de 4) impressão.jpg",
+        "largura": 2480,
+        "altura": 3508,
+        "arquivos": [
+          "pagina-10-bebidas-4-de-4-impressao-480.webp",
+          "pagina-10-bebidas-4-de-4-impressao-1600.webp"
+        ]
+      },
+      {
+        "categoria": "cardapio-impressao",
+        "base": "pagina-2-pizza-salgada-2-de-3-impressao",
+        "original": "Pagina 2 (Pizza salgada 2 de 3) impressão.jpg",
+        "largura": 2480,
+        "altura": 3508,
+        "arquivos": [
+          "pagina-2-pizza-salgada-2-de-3-impressao-480.webp",
+          "pagina-2-pizza-salgada-2-de-3-impressao-1600.webp"
+        ]
+      },
+      {
+        "categoria": "cardapio-impressao",
+        "base": "pagina-3-pizza-salgada-3-de-3-impressao",
+        "original": "Pagina 3 (Pizza salgada 3 de 3) impressão.jpg",
+        "largura": 2480,
+        "altura": 3508,
+        "arquivos": [
+          "pagina-3-pizza-salgada-3-de-3-impressao-480.webp",
+          "pagina-3-pizza-salgada-3-de-3-impressao-1600.webp"
+        ]
+      },
+      {
+        "categoria": "cardapio-impressao",
+        "base": "pagina-4-pizza-doce-impressao",
+        "original": "Pagina 4 (Pizza doce) impressão.jpg",
+        "largura": 2480,
+        "altura": 3508,
+        "arquivos": [
+          "pagina-4-pizza-doce-impressao-480.webp",
+          "pagina-4-pizza-doce-impressao-1600.webp"
+        ]
+      },
+      {
+        "categoria": "cardapio-impressao",
+        "base": "pagina-5-sobremesa-impressao",
+        "original": "Pagina 5 (Sobremesa) impressão.jpg",
+        "largura": 2480,
+        "altura": 3508,
+        "arquivos": [
+          "pagina-5-sobremesa-impressao-480.webp",
+          "pagina-5-sobremesa-impressao-1600.webp"
+        ]
+      },
+      {
+        "categoria": "cardapio-impressao",
+        "base": "pagina-6-rodizio-impressao",
+        "original": "Pagina 6 (rodizio) impressão.jpg",
+        "largura": 2480,
+        "altura": 3508,
+        "arquivos": [
+          "pagina-6-rodizio-impressao-480.webp",
+          "pagina-6-rodizio-impressao-1600.webp"
+        ]
+      },
+      {
+        "categoria": "cardapio-impressao",
+        "base": "pagina-7-bebidas-1-de-4-impressao",
+        "original": "Pagina 7 (Bebidas 1 de 4) impressão.jpg",
+        "largura": 2480,
+        "altura": 3508,
+        "arquivos": [
+          "pagina-7-bebidas-1-de-4-impressao-480.webp",
+          "pagina-7-bebidas-1-de-4-impressao-1600.webp"
+        ]
+      },
+      {
+        "categoria": "cardapio-impressao",
+        "base": "pagina-8-bebidas-2-de-4-impressao",
+        "original": "Pagina 8 (Bebidas 2 de 4) impressão.jpg",
+        "largura": 2480,
+        "altura": 3508,
+        "arquivos": [
+          "pagina-8-bebidas-2-de-4-impressao-480.webp",
+          "pagina-8-bebidas-2-de-4-impressao-1600.webp"
+        ]
+      },
+      {
+        "categoria": "cardapio-impressao",
+        "base": "pagina-9-bebidas-3-de-4-impressao",
+        "original": "Pagina 9 (Bebidas 3 de 4) impressão.jpg",
+        "largura": 2480,
+        "altura": 3508,
+        "arquivos": [
+          "pagina-9-bebidas-3-de-4-impressao-480.webp",
+          "pagina-9-bebidas-3-de-4-impressao-1600.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pizzas-salgadas",
+    "nome": "Pizzas salgadas",
+    "fotos": [
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-1",
+        "original": "Sottiles salgadas-1.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-1-480.webp",
+          "sottiles-salgadas-1-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-10",
+        "original": "Sottiles salgadas-10.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-10-480.webp",
+          "sottiles-salgadas-10-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-100",
+        "original": "Sottiles salgadas-100.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-100-480.webp",
+          "sottiles-salgadas-100-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-101",
+        "original": "Sottiles salgadas-101.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-101-480.webp",
+          "sottiles-salgadas-101-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-102",
+        "original": "Sottiles salgadas-102.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-102-480.webp",
+          "sottiles-salgadas-102-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-103",
+        "original": "Sottiles salgadas-103.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-103-480.webp",
+          "sottiles-salgadas-103-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-104",
+        "original": "Sottiles salgadas-104.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-104-480.webp",
+          "sottiles-salgadas-104-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-105",
+        "original": "Sottiles salgadas-105.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-105-480.webp",
+          "sottiles-salgadas-105-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-106",
+        "original": "Sottiles salgadas-106.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-106-480.webp",
+          "sottiles-salgadas-106-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-107",
+        "original": "Sottiles salgadas-107.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-107-480.webp",
+          "sottiles-salgadas-107-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-108",
+        "original": "Sottiles salgadas-108.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-108-480.webp",
+          "sottiles-salgadas-108-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-109",
+        "original": "Sottiles salgadas-109.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-109-480.webp",
+          "sottiles-salgadas-109-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-11",
+        "original": "Sottiles salgadas-11.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-11-480.webp",
+          "sottiles-salgadas-11-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-110",
+        "original": "Sottiles salgadas-110.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-110-480.webp",
+          "sottiles-salgadas-110-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-111",
+        "original": "Sottiles salgadas-111.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-111-480.webp",
+          "sottiles-salgadas-111-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-112",
+        "original": "Sottiles salgadas-112.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-112-480.webp",
+          "sottiles-salgadas-112-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-113",
+        "original": "Sottiles salgadas-113.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-113-480.webp",
+          "sottiles-salgadas-113-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-114",
+        "original": "Sottiles salgadas-114.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-114-480.webp",
+          "sottiles-salgadas-114-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-115",
+        "original": "Sottiles salgadas-115.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-115-480.webp",
+          "sottiles-salgadas-115-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-116",
+        "original": "Sottiles salgadas-116.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-116-480.webp",
+          "sottiles-salgadas-116-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-117",
+        "original": "Sottiles salgadas-117.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-117-480.webp",
+          "sottiles-salgadas-117-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-118",
+        "original": "Sottiles salgadas-118.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-118-480.webp",
+          "sottiles-salgadas-118-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-119",
+        "original": "Sottiles salgadas-119.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-119-480.webp",
+          "sottiles-salgadas-119-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-12",
+        "original": "Sottiles salgadas-12.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-12-480.webp",
+          "sottiles-salgadas-12-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-120",
+        "original": "Sottiles salgadas-120.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-120-480.webp",
+          "sottiles-salgadas-120-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-121",
+        "original": "Sottiles salgadas-121.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-121-480.webp",
+          "sottiles-salgadas-121-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-122",
+        "original": "Sottiles salgadas-122.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-122-480.webp",
+          "sottiles-salgadas-122-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-123",
+        "original": "Sottiles salgadas-123.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-123-480.webp",
+          "sottiles-salgadas-123-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-124",
+        "original": "Sottiles salgadas-124.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-124-480.webp",
+          "sottiles-salgadas-124-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-125",
+        "original": "Sottiles salgadas-125.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-125-480.webp",
+          "sottiles-salgadas-125-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-126",
+        "original": "Sottiles salgadas-126.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-126-480.webp",
+          "sottiles-salgadas-126-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-127",
+        "original": "Sottiles salgadas-127.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-127-480.webp",
+          "sottiles-salgadas-127-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-128",
+        "original": "Sottiles salgadas-128.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-128-480.webp",
+          "sottiles-salgadas-128-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-129",
+        "original": "Sottiles salgadas-129.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-129-480.webp",
+          "sottiles-salgadas-129-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-13",
+        "original": "Sottiles salgadas-13.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-13-480.webp",
+          "sottiles-salgadas-13-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-130",
+        "original": "Sottiles salgadas-130.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-130-480.webp",
+          "sottiles-salgadas-130-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-131",
+        "original": "Sottiles salgadas-131.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-131-480.webp",
+          "sottiles-salgadas-131-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-132",
+        "original": "Sottiles salgadas-132.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-132-480.webp",
+          "sottiles-salgadas-132-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-133",
+        "original": "Sottiles salgadas-133.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-133-480.webp",
+          "sottiles-salgadas-133-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-134",
+        "original": "Sottiles salgadas-134.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-134-480.webp",
+          "sottiles-salgadas-134-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-135",
+        "original": "Sottiles salgadas-135.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-135-480.webp",
+          "sottiles-salgadas-135-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-136",
+        "original": "Sottiles salgadas-136.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-136-480.webp",
+          "sottiles-salgadas-136-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-137",
+        "original": "Sottiles salgadas-137.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-137-480.webp",
+          "sottiles-salgadas-137-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-138",
+        "original": "Sottiles salgadas-138.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-138-480.webp",
+          "sottiles-salgadas-138-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-139",
+        "original": "Sottiles salgadas-139.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-139-480.webp",
+          "sottiles-salgadas-139-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-14",
+        "original": "Sottiles salgadas-14.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-14-480.webp",
+          "sottiles-salgadas-14-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-140",
+        "original": "Sottiles salgadas-140.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-140-480.webp",
+          "sottiles-salgadas-140-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-141",
+        "original": "Sottiles salgadas-141.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-141-480.webp",
+          "sottiles-salgadas-141-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-142",
+        "original": "Sottiles salgadas-142.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-142-480.webp",
+          "sottiles-salgadas-142-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-143",
+        "original": "Sottiles salgadas-143.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-143-480.webp",
+          "sottiles-salgadas-143-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-144",
+        "original": "Sottiles salgadas-144.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-144-480.webp",
+          "sottiles-salgadas-144-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-145",
+        "original": "Sottiles salgadas-145.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-145-480.webp",
+          "sottiles-salgadas-145-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-146",
+        "original": "Sottiles salgadas-146.jpg",
+        "largura": 5154,
+        "altura": 3436,
+        "arquivos": [
+          "sottiles-salgadas-146-480.webp",
+          "sottiles-salgadas-146-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-147",
+        "original": "Sottiles salgadas-147.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-147-480.webp",
+          "sottiles-salgadas-147-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-148",
+        "original": "Sottiles salgadas-148.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-148-480.webp",
+          "sottiles-salgadas-148-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-149",
+        "original": "Sottiles salgadas-149.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-149-480.webp",
+          "sottiles-salgadas-149-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-15",
+        "original": "Sottiles salgadas-15.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-15-480.webp",
+          "sottiles-salgadas-15-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-150",
+        "original": "Sottiles salgadas-150.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-150-480.webp",
+          "sottiles-salgadas-150-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-151",
+        "original": "Sottiles salgadas-151.jpg",
+        "largura": 4945,
+        "altura": 3297,
+        "arquivos": [
+          "sottiles-salgadas-151-480.webp",
+          "sottiles-salgadas-151-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-152",
+        "original": "Sottiles salgadas-152.jpg",
+        "largura": 5024,
+        "altura": 3349,
+        "arquivos": [
+          "sottiles-salgadas-152-480.webp",
+          "sottiles-salgadas-152-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-153",
+        "original": "Sottiles salgadas-153.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-153-480.webp",
+          "sottiles-salgadas-153-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-154",
+        "original": "Sottiles salgadas-154.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-154-480.webp",
+          "sottiles-salgadas-154-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-155",
+        "original": "Sottiles salgadas-155.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-155-480.webp",
+          "sottiles-salgadas-155-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-156",
+        "original": "Sottiles salgadas-156.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "sottiles-salgadas-156-480.webp",
+          "sottiles-salgadas-156-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-157",
+        "original": "Sottiles salgadas-157.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-157-480.webp",
+          "sottiles-salgadas-157-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-158",
+        "original": "Sottiles salgadas-158.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-158-480.webp",
+          "sottiles-salgadas-158-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-159",
+        "original": "Sottiles salgadas-159.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-159-480.webp",
+          "sottiles-salgadas-159-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-16",
+        "original": "Sottiles salgadas-16.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-16-480.webp",
+          "sottiles-salgadas-16-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-160",
+        "original": "Sottiles salgadas-160.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "sottiles-salgadas-160-480.webp",
+          "sottiles-salgadas-160-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-161",
+        "original": "Sottiles salgadas-161.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "sottiles-salgadas-161-480.webp",
+          "sottiles-salgadas-161-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-162",
+        "original": "Sottiles salgadas-162.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "sottiles-salgadas-162-480.webp",
+          "sottiles-salgadas-162-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-163",
+        "original": "Sottiles salgadas-163.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "sottiles-salgadas-163-480.webp",
+          "sottiles-salgadas-163-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-164",
+        "original": "Sottiles salgadas-164.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-164-480.webp",
+          "sottiles-salgadas-164-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-165",
+        "original": "Sottiles salgadas-165.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "sottiles-salgadas-165-480.webp",
+          "sottiles-salgadas-165-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-166",
+        "original": "Sottiles salgadas-166.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-166-480.webp",
+          "sottiles-salgadas-166-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-167",
+        "original": "Sottiles salgadas-167.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-167-480.webp",
+          "sottiles-salgadas-167-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-168",
+        "original": "Sottiles salgadas-168.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-168-480.webp",
+          "sottiles-salgadas-168-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-169",
+        "original": "Sottiles salgadas-169.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-169-480.webp",
+          "sottiles-salgadas-169-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-17",
+        "original": "Sottiles salgadas-17.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-17-480.webp",
+          "sottiles-salgadas-17-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-170",
+        "original": "Sottiles salgadas-170.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-170-480.webp",
+          "sottiles-salgadas-170-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-171",
+        "original": "Sottiles salgadas-171.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-171-480.webp",
+          "sottiles-salgadas-171-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-18",
+        "original": "Sottiles salgadas-18.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-18-480.webp",
+          "sottiles-salgadas-18-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-19",
+        "original": "Sottiles salgadas-19.jpg",
+        "largura": 4586,
+        "altura": 3057,
+        "arquivos": [
+          "sottiles-salgadas-19-480.webp",
+          "sottiles-salgadas-19-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-2",
+        "original": "Sottiles salgadas-2.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-2-480.webp",
+          "sottiles-salgadas-2-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-20",
+        "original": "Sottiles salgadas-20.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-20-480.webp",
+          "sottiles-salgadas-20-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-21",
+        "original": "Sottiles salgadas-21.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-21-480.webp",
+          "sottiles-salgadas-21-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-22",
+        "original": "Sottiles salgadas-22.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-22-480.webp",
+          "sottiles-salgadas-22-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-23",
+        "original": "Sottiles salgadas-23.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-23-480.webp",
+          "sottiles-salgadas-23-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-24",
+        "original": "Sottiles salgadas-24.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-24-480.webp",
+          "sottiles-salgadas-24-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-25",
+        "original": "Sottiles salgadas-25.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-25-480.webp",
+          "sottiles-salgadas-25-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-26",
+        "original": "Sottiles salgadas-26.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-26-480.webp",
+          "sottiles-salgadas-26-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-27",
+        "original": "Sottiles salgadas-27.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-27-480.webp",
+          "sottiles-salgadas-27-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-28",
+        "original": "Sottiles salgadas-28.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-28-480.webp",
+          "sottiles-salgadas-28-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-29",
+        "original": "Sottiles salgadas-29.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-29-480.webp",
+          "sottiles-salgadas-29-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-3",
+        "original": "Sottiles salgadas-3.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-3-480.webp",
+          "sottiles-salgadas-3-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-30",
+        "original": "Sottiles salgadas-30.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-30-480.webp",
+          "sottiles-salgadas-30-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-31",
+        "original": "Sottiles salgadas-31.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-31-480.webp",
+          "sottiles-salgadas-31-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-32",
+        "original": "Sottiles salgadas-32.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-32-480.webp",
+          "sottiles-salgadas-32-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-33",
+        "original": "Sottiles salgadas-33.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-33-480.webp",
+          "sottiles-salgadas-33-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-34",
+        "original": "Sottiles salgadas-34.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-34-480.webp",
+          "sottiles-salgadas-34-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-35",
+        "original": "Sottiles salgadas-35.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-35-480.webp",
+          "sottiles-salgadas-35-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-36",
+        "original": "Sottiles salgadas-36.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-36-480.webp",
+          "sottiles-salgadas-36-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-37",
+        "original": "Sottiles salgadas-37.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-37-480.webp",
+          "sottiles-salgadas-37-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-38",
+        "original": "Sottiles salgadas-38.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-38-480.webp",
+          "sottiles-salgadas-38-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-39",
+        "original": "Sottiles salgadas-39.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-39-480.webp",
+          "sottiles-salgadas-39-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-4",
+        "original": "Sottiles salgadas-4.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-4-480.webp",
+          "sottiles-salgadas-4-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-40",
+        "original": "Sottiles salgadas-40.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-40-480.webp",
+          "sottiles-salgadas-40-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-41",
+        "original": "Sottiles salgadas-41.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-41-480.webp",
+          "sottiles-salgadas-41-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-42",
+        "original": "Sottiles salgadas-42.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-42-480.webp",
+          "sottiles-salgadas-42-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-43",
+        "original": "Sottiles salgadas-43.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-43-480.webp",
+          "sottiles-salgadas-43-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-44",
+        "original": "Sottiles salgadas-44.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-44-480.webp",
+          "sottiles-salgadas-44-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-45",
+        "original": "Sottiles salgadas-45.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-45-480.webp",
+          "sottiles-salgadas-45-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-46",
+        "original": "Sottiles salgadas-46.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-46-480.webp",
+          "sottiles-salgadas-46-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-47",
+        "original": "Sottiles salgadas-47.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-47-480.webp",
+          "sottiles-salgadas-47-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-48",
+        "original": "Sottiles salgadas-48.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-48-480.webp",
+          "sottiles-salgadas-48-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-49",
+        "original": "Sottiles salgadas-49.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-49-480.webp",
+          "sottiles-salgadas-49-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-5",
+        "original": "Sottiles salgadas-5.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-5-480.webp",
+          "sottiles-salgadas-5-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-50",
+        "original": "Sottiles salgadas-50.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-50-480.webp",
+          "sottiles-salgadas-50-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-51",
+        "original": "Sottiles salgadas-51.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-51-480.webp",
+          "sottiles-salgadas-51-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-52",
+        "original": "Sottiles salgadas-52.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-52-480.webp",
+          "sottiles-salgadas-52-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-53",
+        "original": "Sottiles salgadas-53.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-53-480.webp",
+          "sottiles-salgadas-53-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-54",
+        "original": "Sottiles salgadas-54.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-54-480.webp",
+          "sottiles-salgadas-54-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-55",
+        "original": "Sottiles salgadas-55.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-55-480.webp",
+          "sottiles-salgadas-55-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-56",
+        "original": "Sottiles salgadas-56.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-56-480.webp",
+          "sottiles-salgadas-56-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-57",
+        "original": "Sottiles salgadas-57.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-57-480.webp",
+          "sottiles-salgadas-57-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-58",
+        "original": "Sottiles salgadas-58.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-58-480.webp",
+          "sottiles-salgadas-58-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-59",
+        "original": "Sottiles salgadas-59.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-59-480.webp",
+          "sottiles-salgadas-59-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-6",
+        "original": "Sottiles salgadas-6.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-6-480.webp",
+          "sottiles-salgadas-6-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-60",
+        "original": "Sottiles salgadas-60.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-60-480.webp",
+          "sottiles-salgadas-60-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-61",
+        "original": "Sottiles salgadas-61.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-61-480.webp",
+          "sottiles-salgadas-61-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-62",
+        "original": "Sottiles salgadas-62.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-62-480.webp",
+          "sottiles-salgadas-62-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-63",
+        "original": "Sottiles salgadas-63.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-63-480.webp",
+          "sottiles-salgadas-63-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-64",
+        "original": "Sottiles salgadas-64.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-64-480.webp",
+          "sottiles-salgadas-64-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-65",
+        "original": "Sottiles salgadas-65.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-65-480.webp",
+          "sottiles-salgadas-65-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-66",
+        "original": "Sottiles salgadas-66.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-66-480.webp",
+          "sottiles-salgadas-66-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-67",
+        "original": "Sottiles salgadas-67.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-67-480.webp",
+          "sottiles-salgadas-67-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-68",
+        "original": "Sottiles salgadas-68.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-68-480.webp",
+          "sottiles-salgadas-68-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-69",
+        "original": "Sottiles salgadas-69.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-69-480.webp",
+          "sottiles-salgadas-69-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-7",
+        "original": "Sottiles salgadas-7.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-7-480.webp",
+          "sottiles-salgadas-7-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-70",
+        "original": "Sottiles salgadas-70.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-70-480.webp",
+          "sottiles-salgadas-70-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-71",
+        "original": "Sottiles salgadas-71.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-71-480.webp",
+          "sottiles-salgadas-71-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-72",
+        "original": "Sottiles salgadas-72.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-72-480.webp",
+          "sottiles-salgadas-72-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-73",
+        "original": "Sottiles salgadas-73.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-73-480.webp",
+          "sottiles-salgadas-73-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-74",
+        "original": "Sottiles salgadas-74.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-74-480.webp",
+          "sottiles-salgadas-74-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-75",
+        "original": "Sottiles salgadas-75.jpg",
+        "largura": 5034,
+        "altura": 3356,
+        "arquivos": [
+          "sottiles-salgadas-75-480.webp",
+          "sottiles-salgadas-75-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-75-1",
+        "original": "Sottiles salgadas-75.1.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-75-1-480.webp",
+          "sottiles-salgadas-75-1-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-76",
+        "original": "Sottiles salgadas-76.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-76-480.webp",
+          "sottiles-salgadas-76-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-77",
+        "original": "Sottiles salgadas-77.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-77-480.webp",
+          "sottiles-salgadas-77-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-78",
+        "original": "Sottiles salgadas-78.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-78-480.webp",
+          "sottiles-salgadas-78-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-79",
+        "original": "Sottiles salgadas-79.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-79-480.webp",
+          "sottiles-salgadas-79-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-8",
+        "original": "Sottiles salgadas-8.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-8-480.webp",
+          "sottiles-salgadas-8-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-80",
+        "original": "Sottiles salgadas-80.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-80-480.webp",
+          "sottiles-salgadas-80-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-81",
+        "original": "Sottiles salgadas-81.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-81-480.webp",
+          "sottiles-salgadas-81-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-82",
+        "original": "Sottiles salgadas-82.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-82-480.webp",
+          "sottiles-salgadas-82-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-83",
+        "original": "Sottiles salgadas-83.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-83-480.webp",
+          "sottiles-salgadas-83-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-84",
+        "original": "Sottiles salgadas-84.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-84-480.webp",
+          "sottiles-salgadas-84-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-85",
+        "original": "Sottiles salgadas-85.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-85-480.webp",
+          "sottiles-salgadas-85-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-86",
+        "original": "Sottiles salgadas-86.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-86-480.webp",
+          "sottiles-salgadas-86-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-87",
+        "original": "Sottiles salgadas-87.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-87-480.webp",
+          "sottiles-salgadas-87-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-88",
+        "original": "Sottiles salgadas-88.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-88-480.webp",
+          "sottiles-salgadas-88-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-89",
+        "original": "Sottiles salgadas-89.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-89-480.webp",
+          "sottiles-salgadas-89-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-9",
+        "original": "Sottiles salgadas-9.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-9-480.webp",
+          "sottiles-salgadas-9-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-90",
+        "original": "Sottiles salgadas-90.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-90-480.webp",
+          "sottiles-salgadas-90-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-91",
+        "original": "Sottiles salgadas-91.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-91-480.webp",
+          "sottiles-salgadas-91-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-92",
+        "original": "Sottiles salgadas-92.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-92-480.webp",
+          "sottiles-salgadas-92-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-93",
+        "original": "Sottiles salgadas-93.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-93-480.webp",
+          "sottiles-salgadas-93-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-94",
+        "original": "Sottiles salgadas-94.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-94-480.webp",
+          "sottiles-salgadas-94-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-95",
+        "original": "Sottiles salgadas-95.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-95-480.webp",
+          "sottiles-salgadas-95-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-96",
+        "original": "Sottiles salgadas-96.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-96-480.webp",
+          "sottiles-salgadas-96-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-97",
+        "original": "Sottiles salgadas-97.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-97-480.webp",
+          "sottiles-salgadas-97-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-98",
+        "original": "Sottiles salgadas-98.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-98-480.webp",
+          "sottiles-salgadas-98-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-salgadas",
+        "base": "sottiles-salgadas-99",
+        "original": "Sottiles salgadas-99.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "sottiles-salgadas-99-480.webp",
+          "sottiles-salgadas-99-1600.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "bebidas",
+    "nome": "Bebidas",
+    "fotos": [
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-129",
+        "original": "Pizzaria Sottiles -129.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-129-480.webp",
+          "pizzaria-sottiles-129-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-130",
+        "original": "Pizzaria Sottiles -130.jpg",
+        "largura": 3283,
+        "altura": 4924,
+        "arquivos": [
+          "pizzaria-sottiles-130-480.webp",
+          "pizzaria-sottiles-130-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-131",
+        "original": "Pizzaria Sottiles -131.jpg",
+        "largura": 3204,
+        "altura": 4806,
+        "arquivos": [
+          "pizzaria-sottiles-131-480.webp",
+          "pizzaria-sottiles-131-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-132",
+        "original": "Pizzaria Sottiles -132.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-132-480.webp",
+          "pizzaria-sottiles-132-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-133",
+        "original": "Pizzaria Sottiles -133.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-133-480.webp",
+          "pizzaria-sottiles-133-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-134",
+        "original": "Pizzaria Sottiles -134.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-134-480.webp",
+          "pizzaria-sottiles-134-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-135",
+        "original": "Pizzaria Sottiles -135.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-135-480.webp",
+          "pizzaria-sottiles-135-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-136",
+        "original": "Pizzaria Sottiles -136.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-136-480.webp",
+          "pizzaria-sottiles-136-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-137",
+        "original": "Pizzaria Sottiles -137.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-137-480.webp",
+          "pizzaria-sottiles-137-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-138",
+        "original": "Pizzaria Sottiles -138.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-138-480.webp",
+          "pizzaria-sottiles-138-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-139",
+        "original": "Pizzaria Sottiles -139.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-139-480.webp",
+          "pizzaria-sottiles-139-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-140",
+        "original": "Pizzaria Sottiles -140.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-140-480.webp",
+          "pizzaria-sottiles-140-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-141",
+        "original": "Pizzaria Sottiles -141.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-141-480.webp",
+          "pizzaria-sottiles-141-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-142",
+        "original": "Pizzaria Sottiles -142.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-142-480.webp",
+          "pizzaria-sottiles-142-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-143",
+        "original": "Pizzaria Sottiles -143.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-143-480.webp",
+          "pizzaria-sottiles-143-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-144",
+        "original": "Pizzaria Sottiles -144.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-144-480.webp",
+          "pizzaria-sottiles-144-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-145",
+        "original": "Pizzaria Sottiles -145.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-145-480.webp",
+          "pizzaria-sottiles-145-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-146",
+        "original": "Pizzaria Sottiles -146.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-146-480.webp",
+          "pizzaria-sottiles-146-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-147",
+        "original": "Pizzaria Sottiles -147.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-147-480.webp",
+          "pizzaria-sottiles-147-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-148",
+        "original": "Pizzaria Sottiles -148.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-148-480.webp",
+          "pizzaria-sottiles-148-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-149",
+        "original": "Pizzaria Sottiles -149.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-149-480.webp",
+          "pizzaria-sottiles-149-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-150",
+        "original": "Pizzaria Sottiles -150.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-150-480.webp",
+          "pizzaria-sottiles-150-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-151",
+        "original": "Pizzaria Sottiles -151.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-151-480.webp",
+          "pizzaria-sottiles-151-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-152",
+        "original": "Pizzaria Sottiles -152.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-152-480.webp",
+          "pizzaria-sottiles-152-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-153",
+        "original": "Pizzaria Sottiles -153.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-153-480.webp",
+          "pizzaria-sottiles-153-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-154",
+        "original": "Pizzaria Sottiles -154.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-154-480.webp",
+          "pizzaria-sottiles-154-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-155",
+        "original": "Pizzaria Sottiles -155.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-155-480.webp",
+          "pizzaria-sottiles-155-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-156",
+        "original": "Pizzaria Sottiles -156.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-156-480.webp",
+          "pizzaria-sottiles-156-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-158",
+        "original": "Pizzaria Sottiles -158.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-158-480.webp",
+          "pizzaria-sottiles-158-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-159",
+        "original": "Pizzaria Sottiles -159.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-159-480.webp",
+          "pizzaria-sottiles-159-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-160",
+        "original": "Pizzaria Sottiles -160.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-160-480.webp",
+          "pizzaria-sottiles-160-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-161",
+        "original": "Pizzaria Sottiles -161.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-161-480.webp",
+          "pizzaria-sottiles-161-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-162",
+        "original": "Pizzaria Sottiles -162.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-162-480.webp",
+          "pizzaria-sottiles-162-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-163",
+        "original": "Pizzaria Sottiles -163.jpg",
+        "largura": 3455,
+        "altura": 5183,
+        "arquivos": [
+          "pizzaria-sottiles-163-480.webp",
+          "pizzaria-sottiles-163-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-164",
+        "original": "Pizzaria Sottiles -164.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-164-480.webp",
+          "pizzaria-sottiles-164-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-165",
+        "original": "Pizzaria Sottiles -165.jpg",
+        "largura": 3243,
+        "altura": 4864,
+        "arquivos": [
+          "pizzaria-sottiles-165-480.webp",
+          "pizzaria-sottiles-165-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-166",
+        "original": "Pizzaria Sottiles -166.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-166-480.webp",
+          "pizzaria-sottiles-166-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-167",
+        "original": "Pizzaria Sottiles -167.jpg",
+        "largura": 3215,
+        "altura": 4822,
+        "arquivos": [
+          "pizzaria-sottiles-167-480.webp",
+          "pizzaria-sottiles-167-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-168",
+        "original": "Pizzaria Sottiles -168.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-168-480.webp",
+          "pizzaria-sottiles-168-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-169",
+        "original": "Pizzaria Sottiles -169.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-169-480.webp",
+          "pizzaria-sottiles-169-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-170",
+        "original": "Pizzaria Sottiles -170.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-170-480.webp",
+          "pizzaria-sottiles-170-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-171",
+        "original": "Pizzaria Sottiles -171.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-171-480.webp",
+          "pizzaria-sottiles-171-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-188",
+        "original": "Pizzaria Sottiles -188.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-188-480.webp",
+          "pizzaria-sottiles-188-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-189",
+        "original": "Pizzaria Sottiles -189.jpg",
+        "largura": 5086,
+        "altura": 3391,
+        "arquivos": [
+          "pizzaria-sottiles-189-480.webp",
+          "pizzaria-sottiles-189-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-190",
+        "original": "Pizzaria Sottiles -190.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-190-480.webp",
+          "pizzaria-sottiles-190-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-191",
+        "original": "Pizzaria Sottiles -191.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-191-480.webp",
+          "pizzaria-sottiles-191-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-193",
+        "original": "Pizzaria Sottiles -193.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-193-480.webp",
+          "pizzaria-sottiles-193-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-194",
+        "original": "Pizzaria Sottiles -194.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-194-480.webp",
+          "pizzaria-sottiles-194-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-195",
+        "original": "Pizzaria Sottiles -195.jpg",
+        "largura": 3453,
+        "altura": 5180,
+        "arquivos": [
+          "pizzaria-sottiles-195-480.webp",
+          "pizzaria-sottiles-195-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-196",
+        "original": "Pizzaria Sottiles -196.jpg",
+        "largura": 3425,
+        "altura": 5138,
+        "arquivos": [
+          "pizzaria-sottiles-196-480.webp",
+          "pizzaria-sottiles-196-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-197",
+        "original": "Pizzaria Sottiles -197.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-197-480.webp",
+          "pizzaria-sottiles-197-1600.webp"
+        ]
+      },
+      {
+        "categoria": "bebidas",
+        "base": "pizzaria-sottiles-198",
+        "original": "Pizzaria Sottiles -198.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-198-480.webp",
+          "pizzaria-sottiles-198-1600.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "combos",
+    "nome": "Combos",
+    "fotos": [
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-12",
+        "original": "Pizzaria Sottiles -12.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-12-480.webp",
+          "pizzaria-sottiles-12-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-13",
+        "original": "Pizzaria Sottiles -13.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-13-480.webp",
+          "pizzaria-sottiles-13-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-14",
+        "original": "Pizzaria Sottiles -14.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-14-480.webp",
+          "pizzaria-sottiles-14-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-16",
+        "original": "Pizzaria Sottiles -16.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-16-480.webp",
+          "pizzaria-sottiles-16-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-35",
+        "original": "Pizzaria Sottiles -35.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-35-480.webp",
+          "pizzaria-sottiles-35-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-37",
+        "original": "Pizzaria Sottiles -37.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-37-480.webp",
+          "pizzaria-sottiles-37-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-38",
+        "original": "Pizzaria Sottiles -38.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-38-480.webp",
+          "pizzaria-sottiles-38-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-42",
+        "original": "Pizzaria Sottiles -42.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-42-480.webp",
+          "pizzaria-sottiles-42-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-43",
+        "original": "Pizzaria Sottiles -43.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-43-480.webp",
+          "pizzaria-sottiles-43-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-44",
+        "original": "Pizzaria Sottiles -44.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-44-480.webp",
+          "pizzaria-sottiles-44-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-45",
+        "original": "Pizzaria Sottiles -45.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-45-480.webp",
+          "pizzaria-sottiles-45-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-46",
+        "original": "Pizzaria Sottiles -46.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-46-480.webp",
+          "pizzaria-sottiles-46-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-47",
+        "original": "Pizzaria Sottiles -47.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-47-480.webp",
+          "pizzaria-sottiles-47-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-48",
+        "original": "Pizzaria Sottiles -48.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-48-480.webp",
+          "pizzaria-sottiles-48-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-49",
+        "original": "Pizzaria Sottiles -49.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-49-480.webp",
+          "pizzaria-sottiles-49-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-50",
+        "original": "Pizzaria Sottiles -50.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-50-480.webp",
+          "pizzaria-sottiles-50-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-51",
+        "original": "Pizzaria Sottiles -51.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-51-480.webp",
+          "pizzaria-sottiles-51-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-52",
+        "original": "Pizzaria Sottiles -52.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-52-480.webp",
+          "pizzaria-sottiles-52-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-53",
+        "original": "Pizzaria Sottiles -53.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-53-480.webp",
+          "pizzaria-sottiles-53-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-54",
+        "original": "Pizzaria Sottiles -54.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-54-480.webp",
+          "pizzaria-sottiles-54-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-55",
+        "original": "Pizzaria Sottiles -55.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-55-480.webp",
+          "pizzaria-sottiles-55-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-56",
+        "original": "Pizzaria Sottiles -56.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-56-480.webp",
+          "pizzaria-sottiles-56-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-57",
+        "original": "Pizzaria Sottiles -57.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-57-480.webp",
+          "pizzaria-sottiles-57-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-58",
+        "original": "Pizzaria Sottiles -58.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-58-480.webp",
+          "pizzaria-sottiles-58-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-59",
+        "original": "Pizzaria Sottiles -59.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-59-480.webp",
+          "pizzaria-sottiles-59-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-6",
+        "original": "Pizzaria Sottiles -6.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-6-480.webp",
+          "pizzaria-sottiles-6-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-60",
+        "original": "Pizzaria Sottiles -60.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-60-480.webp",
+          "pizzaria-sottiles-60-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-61",
+        "original": "Pizzaria Sottiles -61.jpg",
+        "largura": 5601,
+        "altura": 3604,
+        "arquivos": [
+          "pizzaria-sottiles-61-480.webp",
+          "pizzaria-sottiles-61-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-65",
+        "original": "Pizzaria Sottiles -65.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-65-480.webp",
+          "pizzaria-sottiles-65-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-67",
+        "original": "Pizzaria Sottiles -67.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-67-480.webp",
+          "pizzaria-sottiles-67-1600.webp"
+        ]
+      },
+      {
+        "categoria": "combos",
+        "base": "pizzaria-sottiles-8",
+        "original": "Pizzaria Sottiles -8.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-8-480.webp",
+          "pizzaria-sottiles-8-1600.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "icones-ifood",
+    "nome": "Ícones iFood",
+    "fotos": [
+      {
+        "categoria": "icones-ifood",
+        "base": "2-de-30cm-refri-2l",
+        "original": "2 de 30cm + refri 2l.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "2-de-30cm-refri-2l-480.webp",
+          "2-de-30cm-refri-2l-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "2-de-35cm-refri-2l",
+        "original": "2 de 35cm + refri 2l.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "2-de-35cm-refri-2l-480.webp",
+          "2-de-35cm-refri-2l-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "2-pizzas-refri-2-litros",
+        "original": "2 pizzas + refri 2 litros.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "2-pizzas-refri-2-litros-480.webp",
+          "2-pizzas-refri-2-litros-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "3-porquinhos-guarana",
+        "original": "3 porquinhos + guarana.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "3-porquinhos-guarana-480.webp",
+          "3-porquinhos-guarana-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "30-cm",
+        "original": "30 cm.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "30-cm-480.webp",
+          "30-cm-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "4-sabores-2-litros",
+        "original": "4 sabores + 2 litros.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "4-sabores-2-litros-480.webp",
+          "4-sabores-2-litros-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "calabresa-e-coca-de-600",
+        "original": "calabresa e coca de 600.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "calabresa-e-coca-de-600-480.webp",
+          "calabresa-e-coca-de-600-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "calabresa-e-frango-com-coca-de-600",
+        "original": "calabresa e frango com coca de 600.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "calabresa-e-frango-com-coca-de-600-480.webp",
+          "calabresa-e-frango-com-coca-de-600-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "calabresa-e-mussarela-com-coca-de-600",
+        "original": "calabresa e mussarela com coca de 600.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "calabresa-e-mussarela-com-coca-de-600-480.webp",
+          "calabresa-e-mussarela-com-coca-de-600-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "casal-perfeito-combo",
+        "original": "casal perfeito (combo).jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "casal-perfeito-combo-480.webp",
+          "casal-perfeito-combo-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "grande-2-sabores-2l",
+        "original": "grande 2 sabores + 2l.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "grande-2-sabores-2l-480.webp",
+          "grande-2-sabores-2l-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "maraca-refri",
+        "original": "maraca + refri.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "maraca-refri-480.webp",
+          "maraca-refri-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "media-e-pequena-alegra",
+        "original": "media e pequena alegra.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "media-e-pequena-alegra-480.webp",
+          "media-e-pequena-alegra-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "meia-calabresa-e-meia-portuguesa",
+        "original": "meia calabresa e meia portuguesa.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "meia-calabresa-e-meia-portuguesa-480.webp",
+          "meia-calabresa-e-meia-portuguesa-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "mussarela",
+        "original": "mussarela.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "mussarela-480.webp",
+          "mussarela-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "pernil-desfiado",
+        "original": "pernil desfiado.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "pernil-desfiado-480.webp",
+          "pernil-desfiado-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "pizza-45cm-doce-refri-2l",
+        "original": "pizza 45cm + doce + refri 2l.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "pizza-45cm-doce-refri-2l-480.webp",
+          "pizza-45cm-doce-refri-2l-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "super-salgada-doce-refri",
+        "original": "super salgada + doce + refri.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "super-salgada-doce-refri-480.webp",
+          "super-salgada-doce-refri-1600.webp"
+        ]
+      },
+      {
+        "categoria": "icones-ifood",
+        "base": "toda-familia",
+        "original": "Toda familia.jpg",
+        "largura": 1611,
+        "altura": 1281,
+        "arquivos": [
+          "toda-familia-480.webp",
+          "toda-familia-1600.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pizzas-doces",
+    "nome": "Pizzas doces",
+    "fotos": [
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-100",
+        "original": "Pizzaria Sottiles -100.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-100-480.webp",
+          "pizzaria-sottiles-100-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-101",
+        "original": "Pizzaria Sottiles -101.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-101-480.webp",
+          "pizzaria-sottiles-101-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-102",
+        "original": "Pizzaria Sottiles -102.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-102-480.webp",
+          "pizzaria-sottiles-102-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-103",
+        "original": "Pizzaria Sottiles -103.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-103-480.webp",
+          "pizzaria-sottiles-103-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-104",
+        "original": "Pizzaria Sottiles -104.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-104-480.webp",
+          "pizzaria-sottiles-104-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-105",
+        "original": "Pizzaria Sottiles -105.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-105-480.webp",
+          "pizzaria-sottiles-105-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-106",
+        "original": "Pizzaria Sottiles -106.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-106-480.webp",
+          "pizzaria-sottiles-106-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-107",
+        "original": "Pizzaria Sottiles -107.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-107-480.webp",
+          "pizzaria-sottiles-107-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-108",
+        "original": "Pizzaria Sottiles -108.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-108-480.webp",
+          "pizzaria-sottiles-108-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-109",
+        "original": "Pizzaria Sottiles -109.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-109-480.webp",
+          "pizzaria-sottiles-109-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-110",
+        "original": "Pizzaria Sottiles -110.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-110-480.webp",
+          "pizzaria-sottiles-110-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-111",
+        "original": "Pizzaria Sottiles -111.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-111-480.webp",
+          "pizzaria-sottiles-111-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-112",
+        "original": "Pizzaria Sottiles -112.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-112-480.webp",
+          "pizzaria-sottiles-112-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-113",
+        "original": "Pizzaria Sottiles -113.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-113-480.webp",
+          "pizzaria-sottiles-113-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-114",
+        "original": "Pizzaria Sottiles -114.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-114-480.webp",
+          "pizzaria-sottiles-114-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-115",
+        "original": "Pizzaria Sottiles -115.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-115-480.webp",
+          "pizzaria-sottiles-115-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-116",
+        "original": "Pizzaria Sottiles -116.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-116-480.webp",
+          "pizzaria-sottiles-116-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-117",
+        "original": "Pizzaria Sottiles -117.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-117-480.webp",
+          "pizzaria-sottiles-117-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-118",
+        "original": "Pizzaria Sottiles -118.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-118-480.webp",
+          "pizzaria-sottiles-118-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-119",
+        "original": "Pizzaria Sottiles -119.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-119-480.webp",
+          "pizzaria-sottiles-119-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-120",
+        "original": "Pizzaria Sottiles -120.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-120-480.webp",
+          "pizzaria-sottiles-120-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-121",
+        "original": "Pizzaria Sottiles -121.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-121-480.webp",
+          "pizzaria-sottiles-121-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-122",
+        "original": "Pizzaria Sottiles -122.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-122-480.webp",
+          "pizzaria-sottiles-122-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-123",
+        "original": "Pizzaria Sottiles -123.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-123-480.webp",
+          "pizzaria-sottiles-123-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-124",
+        "original": "Pizzaria Sottiles -124.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-124-480.webp",
+          "pizzaria-sottiles-124-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-125",
+        "original": "Pizzaria Sottiles -125.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-125-480.webp",
+          "pizzaria-sottiles-125-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-126",
+        "original": "Pizzaria Sottiles -126.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-126-480.webp",
+          "pizzaria-sottiles-126-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-127",
+        "original": "Pizzaria Sottiles -127.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-127-480.webp",
+          "pizzaria-sottiles-127-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-128",
+        "original": "Pizzaria Sottiles -128.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-128-480.webp",
+          "pizzaria-sottiles-128-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-40",
+        "original": "Pizzaria Sottiles -40.jpg",
+        "largura": 5076,
+        "altura": 3384,
+        "arquivos": [
+          "pizzaria-sottiles-40-480.webp",
+          "pizzaria-sottiles-40-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-41",
+        "original": "Pizzaria Sottiles -41.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-41-480.webp",
+          "pizzaria-sottiles-41-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-69",
+        "original": "Pizzaria Sottiles -69.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-69-480.webp",
+          "pizzaria-sottiles-69-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-70",
+        "original": "Pizzaria Sottiles -70.jpg",
+        "largura": 2829,
+        "altura": 4243,
+        "arquivos": [
+          "pizzaria-sottiles-70-480.webp",
+          "pizzaria-sottiles-70-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-71",
+        "original": "Pizzaria Sottiles -71.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-71-480.webp",
+          "pizzaria-sottiles-71-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-72",
+        "original": "Pizzaria Sottiles -72.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-72-480.webp",
+          "pizzaria-sottiles-72-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-73",
+        "original": "Pizzaria Sottiles -73.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-73-480.webp",
+          "pizzaria-sottiles-73-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-74",
+        "original": "Pizzaria Sottiles -74.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-74-480.webp",
+          "pizzaria-sottiles-74-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-75",
+        "original": "Pizzaria Sottiles -75.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-75-480.webp",
+          "pizzaria-sottiles-75-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-76",
+        "original": "Pizzaria Sottiles -76.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-76-480.webp",
+          "pizzaria-sottiles-76-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-77",
+        "original": "Pizzaria Sottiles -77.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-77-480.webp",
+          "pizzaria-sottiles-77-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-78",
+        "original": "Pizzaria Sottiles -78.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-78-480.webp",
+          "pizzaria-sottiles-78-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-79",
+        "original": "Pizzaria Sottiles -79.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-79-480.webp",
+          "pizzaria-sottiles-79-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-80",
+        "original": "Pizzaria Sottiles -80.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-80-480.webp",
+          "pizzaria-sottiles-80-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-81",
+        "original": "Pizzaria Sottiles -81.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-81-480.webp",
+          "pizzaria-sottiles-81-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-82",
+        "original": "Pizzaria Sottiles -82.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-82-480.webp",
+          "pizzaria-sottiles-82-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-83",
+        "original": "Pizzaria Sottiles -83.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-83-480.webp",
+          "pizzaria-sottiles-83-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-84",
+        "original": "Pizzaria Sottiles -84.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-84-480.webp",
+          "pizzaria-sottiles-84-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-85",
+        "original": "Pizzaria Sottiles -85.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-85-480.webp",
+          "pizzaria-sottiles-85-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-86",
+        "original": "Pizzaria Sottiles -86.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-86-480.webp",
+          "pizzaria-sottiles-86-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-87",
+        "original": "Pizzaria Sottiles -87.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-87-480.webp",
+          "pizzaria-sottiles-87-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-88",
+        "original": "Pizzaria Sottiles -88.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-88-480.webp",
+          "pizzaria-sottiles-88-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-89",
+        "original": "Pizzaria Sottiles -89.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-89-480.webp",
+          "pizzaria-sottiles-89-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-90",
+        "original": "Pizzaria Sottiles -90.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-90-480.webp",
+          "pizzaria-sottiles-90-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-91",
+        "original": "Pizzaria Sottiles -91.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-91-480.webp",
+          "pizzaria-sottiles-91-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-92",
+        "original": "Pizzaria Sottiles -92.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-92-480.webp",
+          "pizzaria-sottiles-92-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-93",
+        "original": "Pizzaria Sottiles -93.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-93-480.webp",
+          "pizzaria-sottiles-93-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-94",
+        "original": "Pizzaria Sottiles -94.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-94-480.webp",
+          "pizzaria-sottiles-94-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-95",
+        "original": "Pizzaria Sottiles -95.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-95-480.webp",
+          "pizzaria-sottiles-95-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-96",
+        "original": "Pizzaria Sottiles -96.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-96-480.webp",
+          "pizzaria-sottiles-96-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-97",
+        "original": "Pizzaria Sottiles -97.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-97-480.webp",
+          "pizzaria-sottiles-97-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-98",
+        "original": "Pizzaria Sottiles -98.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-98-480.webp",
+          "pizzaria-sottiles-98-1600.webp"
+        ]
+      },
+      {
+        "categoria": "pizzas-doces",
+        "base": "pizzaria-sottiles-99",
+        "original": "Pizzaria Sottiles -99.jpg",
+        "largura": 3239,
+        "altura": 4858,
+        "arquivos": [
+          "pizzaria-sottiles-99-480.webp",
+          "pizzaria-sottiles-99-1600.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "sobremesas",
+    "nome": "Sobremesas",
+    "fotos": [
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-172",
+        "original": "Pizzaria Sottiles -172.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-172-480.webp",
+          "pizzaria-sottiles-172-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-173",
+        "original": "Pizzaria Sottiles -173.jpg",
+        "largura": 4840,
+        "altura": 3227,
+        "arquivos": [
+          "pizzaria-sottiles-173-480.webp",
+          "pizzaria-sottiles-173-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-174",
+        "original": "Pizzaria Sottiles -174.jpg",
+        "largura": 5082,
+        "altura": 3388,
+        "arquivos": [
+          "pizzaria-sottiles-174-480.webp",
+          "pizzaria-sottiles-174-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-175",
+        "original": "Pizzaria Sottiles -175.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-175-480.webp",
+          "pizzaria-sottiles-175-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-176",
+        "original": "Pizzaria Sottiles -176.jpg",
+        "largura": 2907,
+        "altura": 4361,
+        "arquivos": [
+          "pizzaria-sottiles-176-480.webp",
+          "pizzaria-sottiles-176-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-177",
+        "original": "Pizzaria Sottiles -177.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-177-480.webp",
+          "pizzaria-sottiles-177-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-178",
+        "original": "Pizzaria Sottiles -178.jpg",
+        "largura": 4376,
+        "altura": 2917,
+        "arquivos": [
+          "pizzaria-sottiles-178-480.webp",
+          "pizzaria-sottiles-178-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-179",
+        "original": "Pizzaria Sottiles -179.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-179-480.webp",
+          "pizzaria-sottiles-179-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-180",
+        "original": "Pizzaria Sottiles -180.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-180-480.webp",
+          "pizzaria-sottiles-180-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-181",
+        "original": "Pizzaria Sottiles -181.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-181-480.webp",
+          "pizzaria-sottiles-181-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-182",
+        "original": "Pizzaria Sottiles -182.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-182-480.webp",
+          "pizzaria-sottiles-182-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-183",
+        "original": "Pizzaria Sottiles -183.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-183-480.webp",
+          "pizzaria-sottiles-183-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-184",
+        "original": "Pizzaria Sottiles -184.jpg",
+        "largura": 4384,
+        "altura": 2923,
+        "arquivos": [
+          "pizzaria-sottiles-184-480.webp",
+          "pizzaria-sottiles-184-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-185",
+        "original": "Pizzaria Sottiles -185.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-185-480.webp",
+          "pizzaria-sottiles-185-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-186",
+        "original": "Pizzaria Sottiles -186.jpg",
+        "largura": 3456,
+        "altura": 5184,
+        "arquivos": [
+          "pizzaria-sottiles-186-480.webp",
+          "pizzaria-sottiles-186-1600.webp"
+        ]
+      },
+      {
+        "categoria": "sobremesas",
+        "base": "pizzaria-sottiles-187",
+        "original": "Pizzaria Sottiles -187.jpg",
+        "largura": 5184,
+        "altura": 3456,
+        "arquivos": [
+          "pizzaria-sottiles-187-480.webp",
+          "pizzaria-sottiles-187-1600.webp"
+        ]
+      }
+    ]
+  }
+]

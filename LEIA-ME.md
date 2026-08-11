@@ -1,7 +1,17 @@
 # Site da Sottile's Pizzaria
 
-Site institucional e de conversão. Uma página só, HTML/CSS/JS puros, sem framework
-e sem build obrigatório. Feito primeiro para o celular.
+Site institucional e de conversão. HTML/CSS/JS puros, sem framework e sem build
+obrigatório. Feito primeiro para o celular.
+
+**Duas páginas:**
+
+| Arquivo | O que é |
+| --- | --- |
+| `index.html` | Home. Vende a experiência da marca: hero, história, fotos, modalidades, ambiente, unidades, pedido. |
+| `cardapio.html` | Cardápio completo. Os 83 itens, busca por ingrediente, filtro por categoria e tabela de preços. |
+
+A home **não** tem o cardápio inteiro — ela leva para a página dele. Isso encurta
+a home e dá ao cardápio uma página própria, com busca e endereço para compartilhar.
 
 ---
 
@@ -9,8 +19,8 @@ e sem build obrigatório. Feito primeiro para o celular.
 
 **Modo mais simples:** dê dois cliques em **`sottiles-site-completo.html`**.
 É o site inteiro dentro de um arquivo só — imagens, fontes, CSS e JavaScript
-embutidos. Abre offline, funciona em qualquer computador ou celular, e dá para
-mandar por WhatsApp ou e-mail.
+embutidos. Abre offline e dá para mandar por WhatsApp ou e-mail. O cardápio vira
+o `sottiles-cardapio-completo.html`, e um linka para o outro.
 
 **Modo de desenvolvimento** (para editar e ver as mudanças):
 
@@ -29,7 +39,7 @@ Para simular o celular: `F12` no Chrome e clique no ícone de celular.
 | Onde o botão está | Para onde vai |
 | --- | --- |
 | Cabeçalho, hero, menu, cardápio, barra fixa | **Central — WhatsApp (24) 98844-1010** |
-| Card da unidade Centro, seção Ambientes, rodapé | **Centro — WhatsApp (24) 98809-1011** |
+| Seção Ambientes, rodapé, card da unidade Centro | **Centro — WhatsApp (24) 98809-1011** |
 | Card da unidade Alto da Serra, rodapé | **Alto da Serra — WhatsApp (24) 98836-2272** |
 | "Prefere ligar?" no card do Centro, seção Pedidos, rodapé | **Centro — telefone (24) 2242-0053** |
 | "Prefere ligar?" no card do Alto da Serra, seção Pedidos, rodapé | **Alto da Serra — telefone (24) 2231-1207** |
@@ -43,16 +53,106 @@ Ele aparece em dois lugares, de propósito — no HTML para funcionar mesmo sem
 JavaScript, e no JS para acrescentar a mensagem pronta:
 
 1. `assets/js/main.js` → bloco `CONFIG`, no topo do arquivo
-2. `index.html` → `Ctrl+H` e substitua o número antigo pelo novo
+2. `index.html` e `cardapio.html` → `Ctrl+H` e substitua o número antigo
 
-Depois rode `npm run bundle` para atualizar o arquivo único.
+Depois rode `npm run bundle` para atualizar os arquivos únicos.
+
+---
+
+## Onde mexer em cada coisa
+
+| O que mudar | Arquivo | Onde |
+| --- | --- | --- |
+| Números de WhatsApp | `assets/js/main.js` + os dois `.html` | bloco `CONFIG` e busca no HTML |
+| Mensagem que abre no WhatsApp | `assets/js/main.js` | campo `texto` |
+| Sabores, descrições e preços | `cardapio.html` | seções `<!-- SALGADAS -->`, `<!-- DOCES -->`… |
+| Textos da home | `index.html` | cada seção tem um comentário com o nome |
+| Endereços e horários | os dois `.html` | seção `<!-- UNIDADES -->` e rodapé |
+| Perguntas frequentes | `index.html` | seção `<!-- PEDIDO / WHATSAPP -->` |
+| Cores, tipos e tempos de animação | `assets/css/style.css` | bloco `2. TOKENS` |
+| Quais fotos o site usa | `tools/build-destaques.js` | lista `DESTAQUES` |
+
+---
+
+## Imagens
+
+Existem **três camadas**, de propósito:
+
+1. **`assets/fotos/`** — banco de 362 fotos do ensaio, em WebP de 480 px e
+   1600 px (91 MB). É o acervo consultável, versionado no repositório.
+   Os originais de 5 GB ficam no
+   [Drive](https://drive.google.com/drive/folders/1pmr8Mp0nNZSvPo_eRdIjTDsgDs-jz_5Z),
+   fora do Git.
+2. **`assets/img/`** — só as fotos que o site realmente usa, já recortadas na
+   proporção de cada composição e em vários tamanhos. É o que o navegador baixa.
+3. **`manual de marca/`** — originais da identidade visual. Nada foi apagado.
+
+```bash
+npm run fotos      # banco (assets/fotos) a partir dos originais do ensaio
+npm run destaques  # recortes do site (assets/img) a partir do banco
+npm run images     # imagens do manual de marca (logo, ícones, ambientes)
+npm run bundle     # regera os arquivos únicos
+```
+
+Para trocar a foto de uma composição, edite a lista `DESTAQUES` em
+`tools/build-destaques.js` (cada item tem `src`, `ratio`, `zoom` e `foco`) e
+rode `npm run destaques`.
+
+**As fotos não trazem nome de sabor.** As legendas dizem apenas que são pizzas
+da casa — assim nenhuma imagem promete um recheio específico. Os sabores ficam
+na lista do cardápio, que veio do cardápio impresso.
+
+---
+
+## Como o movimento funciona
+
+Há uma linguagem de movimento só, descrita no bloco `5. MOVIMENTO` do CSS.
+Vale conhecer três regras antes de mexer:
+
+**1. Revelação por atributo.** Qualquer elemento com `data-rv` entra em cena
+quando aparece na tela: `sobe`, `desce`, `esq`, `dir`, `escala` e `mascara`.
+Um `style="--i:2"` atrasa a entrada em cascata. Um único `IntersectionObserver`
+cuida de todos e para de observar depois de revelar.
+
+**2. A máscara vai na imagem, nunca no elemento observado.** O
+`IntersectionObserver` considera o `clip-path` do próprio alvo — um elemento
+recortado a zero é reportado como fora de tela, nunca é revelado e some para
+sempre. Por isso o recorte fica no `> img`.
+
+**3. Cada primitiva desfaz só o que aplicou.** Um `transform: none` geral no
+estado revelado apagaria transforms legítimos do layout (a rotação de um cartão,
+por exemplo) e o elemento saltaria ao aparecer.
+
+Títulos usam `.ln`/`<i>`, que sobem por trás de uma borda. O deslocamento
+inicial fica dentro de `@media (scripting:enabled)`: sem JavaScript ninguém
+adiciona `.is-in`, e o título ficaria invisível.
+
+A cortina entre páginas abre por **animação CSS pura**. Se o JavaScript falhar,
+travar ou nem carregar, ela sai sozinha — nunca existe risco de tela preta.
+O JS só cuida da saída.
+
+Tudo respeita `prefers-reduced-motion`: o movimento desliga, a funcionalidade não.
+
+---
+
+## O que foi medido
+
+Chrome 151, página inicial em 1440 px:
+
+- **156 KB** no primeiro carregamento, 11 requisições
+- Sem rolagem horizontal em 320, 390, 768, 1024 e 1440 px
+- **Sem JavaScript:** todo o conteúdo visível, cardápio inteiro legível, links
+  funcionando — inclusive o título do hero
+- **Com "reduzir movimento":** sem animação, sem cortina, tudo visível
+- Filtro, busca por ingrediente (funciona sem acento) e "ver todos os sabores"
+  testados na página do cardápio
 
 ---
 
 ## Quando tiver domínio
 
 O site foi entregue **sem domínio**, então três coisas ficaram de fora. Quando
-o endereço existir, acrescente no `<head>` do `index.html`:
+o endereço existir, acrescente no `<head>` das duas páginas:
 
 ```html
 <link rel="canonical" href="https://SEUDOMINIO.com.br/">
@@ -63,79 +163,38 @@ E troque o `og:image` de `assets/img/og-sottiles.jpg` para o endereço completo
 `https://SEUDOMINIO.com.br/assets/img/og-sottiles.jpg` — sem isso o WhatsApp e o
 Facebook não mostram a imagem de prévia quando alguém compartilha o link.
 
-Crie também um `sitemap.xml` com a URL real e acrescente a linha
+Crie também um `sitemap.xml` com as duas URLs e acrescente a linha
 `Sitemap: https://SEUDOMINIO.com.br/sitemap.xml` no `robots.txt`
 (já tem um comentário no arquivo lembrando disso).
 
-Para publicar, envie: `index.html`, a pasta `assets/`, `robots.txt` e
-`site.webmanifest`. Não precisa subir `manual de marca/`, `tools/`,
-`node_modules/`, `package.json`, este arquivo nem o HTML único.
-
----
-
-## Onde mexer em cada coisa
-
-| O que mudar | Arquivo | Onde |
-| --- | --- | --- |
-| Números de WhatsApp | `assets/js/main.js` + `index.html` | bloco `CONFIG` e busca no HTML |
-| Mensagem que abre no WhatsApp | `assets/js/main.js` | campo `texto` |
-| Sabores, descrições e preços | `index.html` | seção `<!-- CARDÁPIO -->` |
-| Endereços e horários | `index.html` | seção `<!-- UNIDADES -->` e rodapé |
-| Perguntas frequentes | `index.html` | seção `<!-- PEDIDO / WHATSAPP -->` |
-| Cores e tamanhos | `assets/css/style.css` | bloco `2. TOKENS` |
-
----
-
-## Imagens
-
-As fotos originais continuam intactas em `manual de marca/`. Nada foi apagado.
-O site usa versões otimizadas em `assets/img/` — as originais têm 15 a 20 MB
-cada e travariam o carregamento no celular.
-
-```bash
-npm run images   # regera as versões otimizadas
-npm run bundle   # regera o arquivo único
-```
-
-Para incluir fotos novas, edite `tools/build-images.js`.
-
-**As fotos não trazem nome de sabor.** A legenda diz apenas que são pizzas da
-casa — assim nenhuma imagem promete um recheio específico. Os sabores ficam na
-lista do cardápio, que veio do cardápio impresso.
-
----
-
-## O que foi medido
-
-Chrome headless simulando 4G lento e processador 4× mais lento:
-
-- **133 KB** no primeiro carregamento, 11 requisições
-- **LCP 1,7 s** · **CLS 0** · **FCP 1,7 s**
-- Sem rolagem horizontal em 320, 375, 390, 430, 768 e 1440 px
-- Cardápio inteiro (83 itens) legível pelo Google mesmo sem JavaScript
+Para publicar, envie: `index.html`, `cardapio.html`, a pasta `assets/`,
+`robots.txt` e `site.webmanifest`. Não precisa subir `manual de marca/`,
+`assets/fotos/`, `tools/`, `node_modules/`, `package.json`, este arquivo nem os
+HTML únicos.
 
 ---
 
 ## Decisões que valem saber
 
 **Sem framework.** React traria 100 KB de JavaScript antes de qualquer pixel
-aparecer. Numa página que recebe tráfego pago, isso custa venda.
+aparecer. Numa página que recebe tráfego pago, isso custa venda. O movimento
+todo é CSS + um `IntersectionObserver` + um `requestAnimationFrame`.
+
+**Site escuro.** As fotos do ensaio são quentes, sobre madeira e fundo escuro.
+Num fundo creme elas competiam com a página; num fundo escuro elas brilham. As
+seções claras entram como respiro e para marcar mudança de assunto.
 
 **Fontes na própria hospedagem.** Bungee e Poppins estão em `assets/fonts/`,
 não no Google Fonts. Uma conexão externa a menos antes do primeiro texto.
 
 **Cardápio cortado em 12 itens por categoria.** São 58 sabores salgados; listar
-todos empurraria a seção de pedido para muito longe no celular. Os 83 itens
-continuam no HTML (o Google lê todos), só ficam escondidos até o toque em
-"Ver todos os sabores" — ou até você buscar um ingrediente.
+todos empurraria a conversão para muito longe no celular. Os 83 itens continuam
+no HTML (o Google lê todos), só ficam escondidos até o toque em "Ver todos os
+sabores" — ou até você buscar um ingrediente.
 
 **Botão fixo de WhatsApp só no celular.** Aparece depois que a pessoa passa do
 topo e o corpo da página reserva espaço para ele não cobrir conteúdo. No
 computador ele não existe: lá o WhatsApp está no cabeçalho.
-
-**Um clique até a conversa.** O botão fixo vai direto para a central, sem
-perguntar nada antes. Quem prefere uma loja específica encontra os contatos
-diretos na seção de pedidos, nos cards das unidades e no rodapé.
 
 **Rastreamento pronto.** Clique de WhatsApp dispara `clique_whatsapp` e clique
 de telefone dispara `clique_telefone`, os dois no `dataLayer` e no `gtag`, com o

@@ -1,9 +1,9 @@
 /**
- * Gera "sottiles-site-completo.html": o site inteiro em UM arquivo só.
+ * Gera os arquivos unicos: cada pagina do site num HTML so.
  * -------------------------------------------------------------------
- * CSS, JavaScript, fontes e imagens viram data: URI dentro do próprio HTML.
+ * CSS, JavaScript, fontes e imagens viram data: URI dentro do proprio HTML.
  * Serve para enviar por e-mail/WhatsApp, abrir com dois cliques ou arquivar.
- * Para publicar de verdade, use o index.html + a pasta assets (é mais rápido,
+ * Para publicar de verdade, use os .html + a pasta assets (e mais rapido,
  * porque o navegador consegue cachear cada arquivo separadamente).
  *
  * Uso:  node tools/build-single-file.js
@@ -15,6 +15,13 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const lerTexto = (f) => fs.readFileSync(path.join(ROOT, f), 'utf8');
 const lerBin = (f) => fs.readFileSync(path.join(ROOT, f));
+
+/* Cada pagina do site e o nome do arquivo unico correspondente. Os links entre
+   paginas sao reescritos para apontar um arquivo para o outro. */
+const PAGINAS = [
+  { entrada: 'index.html', saida: 'sottiles-site-completo.html' },
+  { entrada: 'cardapio.html', saida: 'sottiles-cardapio-completo.html' },
+];
 
 const MIME = {
   '.webp': 'image/webp',
@@ -37,66 +44,74 @@ function dataURI(rel) {
   return uri;
 }
 
-let html = lerTexto('index.html');
 let css = lerTexto(path.join('assets', 'css', 'style.css'));
 const js = lerTexto(path.join('assets', 'js', 'main.js'));
 
-// 1. fontes referenciadas pelo CSS (../fonts/x.woff2 → assets/fonts/x.woff2)
+// fontes referenciadas pelo CSS (../fonts/x.woff2 → assets/fonts/x.woff2)
 css = css.replace(/url\(\.\.\/fonts\/([^)]+)\)/g, (m, arq) => {
   const uri = dataURI(path.join('assets', 'fonts', arq).replace(/\\/g, '/'));
   return uri ? `url(${uri})` : m;
 });
 
-// 2. o preload de fonte/imagem não faz sentido num arquivo embutido
-html = html.replace(/\n?\s*<link rel="preload"[\s\S]*?>/g, '');
+function montar(pagina) {
+  let html = lerTexto(pagina.entrada);
 
-// 3. cada imagem fica com UMA versão só. Embutir o srcset inteiro em base64
-//    multiplicaria o arquivo por 3 ou 4 sem ganho nenhum num HTML solto.
-html = html.replace(/<img\b[^>]*>/g, (tag) => {
-  const m = tag.match(/srcset="([^"]+)"/);
-  if (!m) return tag;
-  const candidatos = m[1].split(',').map((p) => {
-    const [url, desc] = p.trim().split(/\s+/);
-    return { url, w: parseInt(desc, 10) || 0 };
-  }).sort((a, b) => a.w - b.w);
-  // versão do meio: nitidez suficiente em telas retina sem inflar o arquivo
-  const escolhida = candidatos[Math.min(1, candidatos.length - 1)].url;
-  return tag
-    .replace(/\s*srcset="[^"]+"/, '')
-    .replace(/\s*sizes="[^"]+"/, '')
-    .replace(/src="[^"]+"/, `src="${escolhida}"`);
-});
+  // 1. o preload de fonte/imagem nao faz sentido num arquivo embutido
+  html = html.replace(/\n?\s*<link rel="preload"[\s\S]*?>/g, '');
 
-// 4. imagens restantes viram data: URI
-html = html.replace(/(src|href)="(assets\/img\/[^"]+)"/g, (m, attr, rel) => {
-  const uri = dataURI(rel);
-  return uri ? `${attr}="${uri}"` : m;
-});
+  // 2. cada imagem fica com UMA versao so. Embutir o srcset inteiro em base64
+  //    multiplicaria o arquivo por 3 ou 4 sem ganho nenhum num HTML solto.
+  html = html.replace(/<img\b[^>]*>/g, (tag) => {
+    const m = tag.match(/srcset="([^"]+)"/);
+    if (!m) return tag;
+    const candidatos = m[1].split(',').map((p) => {
+      const [url, desc] = p.trim().split(/\s+/);
+      return { url, w: parseInt(desc, 10) || 0 };
+    }).sort((a, b) => a.w - b.w);
+    // versao do meio: nitidez suficiente em telas retina sem inflar o arquivo
+    const escolhida = candidatos[Math.min(1, candidatos.length - 1)].url;
+    return tag
+      .replace(/\s*srcset="[^"]+"/, '')
+      .replace(/\s*sizes="[^"]+"/, '')
+      .replace(/src="[^"]+"/, `src="${escolhida}"`);
+  });
 
-// 5. CSS e JS embutidos.
-//    Atenção: a substituição TEM que ser por função. Numa string de troca o
-//    JavaScript trata "$$" como um "$" literal, e o main.js usa $$ como
-//    atalho de querySelectorAll — em string, o arquivo sairia quebrado.
-html = html.replace(
-  /<link rel="stylesheet" href="assets\/css\/style\.css">/,
-  () => '<style>\n' + css + '\n</style>'
-);
-html = html.replace(
-  /<script src="assets\/js\/main\.js"[^>]*><\/script>/,
-  () => '<script>\n' + js + '\n</script>'
-);
+  // 3. imagens restantes viram data: URI
+  html = html.replace(/(src|href)="(assets\/img\/[^"]+)"/g, (m, attr, rel) => {
+    const uri = dataURI(rel);
+    return uri ? `${attr}="${uri}"` : m;
+  });
 
-// 6. o manifesto depende de arquivos externos; num HTML solto ele só daria 404
-html = html.replace(/\n?\s*<link rel="manifest"[^>]*>/, '');
+  // 4. CSS e JS embutidos.
+  //    Atencao: a substituicao TEM que ser por funcao. Numa string de troca o
+  //    JavaScript trata "$$" como um "$" literal, e o main.js usa $$ como
+  //    atalho de querySelectorAll — em string, o arquivo sairia quebrado.
+  html = html.replace(
+    /<link rel="stylesheet" href="assets\/css\/style\.css">/,
+    () => '<style>\n' + css + '\n</style>'
+  );
+  html = html.replace(
+    /<script src="assets\/js\/main\.js"[^>]*><\/script>/,
+    () => '<script>\n' + js + '\n</script>'
+  );
 
-const saida = path.join(ROOT, 'sottiles-site-completo.html');
-fs.writeFileSync(saida, html, 'utf8');
+  // 5. o manifesto depende de arquivos externos; num HTML solto so daria 404
+  html = html.replace(/\n?\s*<link rel="manifest"[^>]*>/, '');
 
-const kb = (fs.statSync(saida).size / 1024).toFixed(0);
-// só interessa o que o navegador tenta BAIXAR: src e href de elementos.
-// Caminhos dentro do og:image e do JSON-LD são metadado para buscador, não recurso.
-const pendentes = (html.match(/(?:src|href)="assets\//g) || []).length;
-console.log(`✓ sottiles-site-completo.html — ${kb} KB`);
-console.log(pendentes
-  ? `⚠️ ainda restam ${pendentes} recursos externos`
-  : '✓ nenhum recurso externo: abre offline, com dois cliques');
+  // 6. links entre paginas apontam para o arquivo unico da outra pagina
+  PAGINAS.forEach((p) => {
+    html = html.split('href="' + p.entrada + '"').join('href="' + p.saida + '"');
+    html = html.split('href="' + p.entrada + '#').join('href="' + p.saida + '#');
+  });
+
+  fs.writeFileSync(path.join(ROOT, pagina.saida), html, 'utf8');
+
+  const kb = (fs.statSync(path.join(ROOT, pagina.saida)).size / 1024).toFixed(0);
+  // so interessa o que o navegador tenta BAIXAR: src e href de elementos.
+  // Caminhos dentro do og:image e do JSON-LD sao metadado, nao recurso.
+  const pendentes = (html.match(/(?:src|href)="assets\//g) || []).length;
+  console.log(`✓ ${pagina.saida} — ${kb} KB` + (pendentes ? `  ⚠️ ${pendentes} recursos externos` : ''));
+}
+
+PAGINAS.forEach(montar);
+console.log('\nAbra com dois cliques: sottiles-site-completo.html');

@@ -107,10 +107,15 @@ No cardápio, tocar no nome de um sabor abre a foto **daquele** sabor. Só entra
 os sabores com foto confirmada: uma foto errada faria o site prometer um
 recheio que não é o do prato.
 
-Hoje são **2** — `Mussarela` e `Calabresa` —, as únicas que vieram nomeadas
-pelo fotógrafo (pasta "Icones iFood"). As outras 360 fotos têm nome genérico
-(`sottiles-salgadas-47`), e deduzir o sabor pela aparência não é seguro:
-uma "4 queijos" e uma "5 queijos" são a mesma foto para quem olha de fora.
+São **21 dos 77**. Duas vieram nomeadas pelo fotógrafo (pasta "Ícones iFood");
+as outras 19 foram identificadas pela aparência, e cada uma tem um ingrediente
+que só existe nela no cardápio — camarão, abacaxi, rúcula, cereja, confete,
+granulado. **Peça o aval da cozinha antes de considerar fechado.**
+
+Os 56 restantes ficam sem foto de propósito: boa parte é indistinguível por
+fora (uma "4 queijos" e uma "5 queijos" são a mesma imagem branca para quem
+não fez a pizza), e uma foto errada faria o site prometer um recheio que não é
+o do prato.
 
 **Para acrescentar um sabor:**
 

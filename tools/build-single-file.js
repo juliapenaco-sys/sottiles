@@ -44,6 +44,24 @@ function dataURI(rel) {
   return uri;
 }
 
+/* As fotos de sabor do cardapio entram por JavaScript no primeiro toque, entao
+   nao aparecem em nenhum src do HTML e o embutidor de imagens nao as alcanca.
+   Aqui elas viram data: URI e ficam em window.__FOTOS_SABOR (ver main.js). */
+function fotosDeSabor(html) {
+  const usados = Array.from(new Set(
+    Array.from(html.matchAll(/data-foto="([^"]+)"/g)).map((m) => m[1])
+  ));
+  if (!usados.length) return '';
+  const mapa = {};
+  const faltando = [];
+  usados.forEach((s) => {
+    const uri = dataURI('assets/img/sabor-' + s + '-380.webp');
+    if (uri) mapa[s] = uri; else faltando.push(s);
+  });
+  if (faltando.length) console.error('  ⚠️ sem imagem: ' + faltando.join(', '));
+  return '<script>window.__FOTOS_SABOR=' + JSON.stringify(mapa) + ';</script>\n';
+}
+
 let css = lerTexto(path.join('assets', 'css', 'style.css'));
 const js = lerTexto(path.join('assets', 'js', 'main.js'));
 
@@ -92,7 +110,7 @@ function montar(pagina) {
   );
   html = html.replace(
     /<script src="assets\/js\/main\.js"[^>]*><\/script>/,
-    () => '<script>\n' + js + '\n</script>'
+    () => fotosDeSabor(html) + '<script>\n' + js + '\n</script>'
   );
 
   // 5. o manifesto depende de arquivos externos; num HTML solto so daria 404

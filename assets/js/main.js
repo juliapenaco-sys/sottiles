@@ -473,13 +473,25 @@
       caixa.className = 'item__foto';
       var moldura = document.createElement('span');
       var img = document.createElement('img');
-      img.src = 'assets/img/sabor-' + base + '-380.webp';
-      img.srcset = 'assets/img/sabor-' + base + '-380.webp 380w, ' +
-                   'assets/img/sabor-' + base + '-560.webp 560w, ' +
-                   'assets/img/sabor-' + base + '-780.webp 780w';
-      img.sizes = '(max-width:599px) 88vw, 380px';
+
+      /* No arquivo único não existe pasta assets: o gerador embute as fotos
+         de sabor aqui, já que elas entram por JavaScript e não aparecem em
+         nenhum src do HTML. Sem isto, a foto quebraria justamente na versão
+         que a pessoa abre com dois cliques. */
+      var embutidas = window.__FOTOS_SABOR;
+      if (embutidas && embutidas[base]) {
+        img.src = embutidas[base];
+      } else {
+        img.src = 'assets/img/sabor-' + base + '-380.webp';
+        img.srcset = 'assets/img/sabor-' + base + '-380.webp 380w, ' +
+                     'assets/img/sabor-' + base + '-560.webp 560w, ' +
+                     'assets/img/sabor-' + base + '-780.webp 780w';
+        img.sizes = '(max-width:599px) 88vw, 380px';
+      }
       img.width = 380; img.height = 380;
-      img.loading = 'lazy'; img.decoding = 'async';
+      // sem loading=lazy de proposito: a imagem so nasce no toque, ou seja,
+      // no exato momento em que precisa aparecer
+      img.decoding = 'async';
       img.alt = 'Pizza ' + nome.trim().toLowerCase() + ' da Sottile\'s Pizzaria';
       moldura.appendChild(img);
       caixa.appendChild(moldura);

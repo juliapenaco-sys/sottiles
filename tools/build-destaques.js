@@ -26,13 +26,18 @@ fs.mkdirSync(OUT, { recursive: true });
 /* =============================================================
    FOTO DE CADA SABOR (cardápio)
    -------------------------------------------------------------
-   No cardápio, tocar no nome de um sabor abre a foto dele. Só entram nesta
-   lista os sabores cuja foto é CERTA — uma foto errada faria o site prometer
-   um recheio que não é o do prato.
+   No cardápio, tocar no nome de um sabor abre a foto dele.
 
-   Hoje só duas são confirmadas, porque vieram nomeadas pelo fotógrafo na
-   pasta "Icones iFood". As outras 360 fotos do acervo têm nome genérico
-   (sottiles-salgadas-47), e adivinhar o sabor pela aparência não é seguro.
+   São 21 dos 77 sabores. Duas vieram NOMEADAS pelo fotógrafo (pasta "Icones
+   iFood"); as outras 19 foram identificadas pela aparência, e cada uma tem um
+   ingrediente que só existe nela dentro do cardápio — camarão, abacaxi,
+   rúcula, cereja, confete, granulado. Isso torna a troca improvável, mas
+   continua sendo leitura de foto: **peça o aval da cozinha**.
+
+   Os 56 sabores restantes ficam sem foto de propósito. Boa parte é
+   indistinguível por fora — uma "4 queijos", uma "5 queijos" e uma "6 queijos"
+   são a mesma imagem branca para quem não fez a pizza —, e uma foto errada
+   faria o site prometer um recheio que não é o do prato.
 
    PARA ACRESCENTAR UM SABOR:
    1. abra as folhas de contato em tools/contato-sabores/ (numeradas)
@@ -42,9 +47,39 @@ fs.mkdirSync(OUT, { recursive: true });
    5. rode  npm run destaques
    ============================================================= */
 const SABORES = [
+  // ---- CONFIRMADAS pelo nome do arquivo do fotógrafo (pasta Icones iFood) --
   { sabor: 'mussarela', src: 'icones-ifood/mussarela', zoom: 0.9, foco: 0.02 },
   // a pizza fica na metade esquerda do quadro; a garrafa sai no recorte
   { sabor: 'calabresa', src: 'icones-ifood/calabresa-e-coca-de-600', zoom: 0.78, focoX: -0.17, foco: 0.01 },
+
+  /* ---- IDENTIFICADAS PELA APARÊNCIA — CONFERIR ANTES DE PUBLICAR ----------
+     Cada uma tem um ingrediente que só existe nela dentro do cardápio, o que
+     torna a troca improvável. Ainda assim é leitura de foto, não informação
+     da cozinha: peça o aval de alguém da casa antes de considerar fechado.
+     Para remover uma: apague a linha aqui e o data-foto no cardapio.html. */
+
+  // salgadas — o marcador entre parênteses é o que identifica a foto
+  { sabor: 'pepperoni', src: 'pizzas-salgadas/sottiles-salgadas-3', zoom: 0.88 },        // pepperoni + azeitona preta
+  { sabor: 'marguerita', src: 'pizzas-salgadas/sottiles-salgadas-34', zoom: 0.9 },       // rodelas de tomate + manjericão
+  { sabor: 'camarao', src: 'pizzas-salgadas/sottiles-salgadas-117', zoom: 0.9 },         // camarão inteiro cobrindo
+  { sabor: 'havaiana', src: 'pizzas-salgadas/sottiles-salgadas-123', zoom: 0.92 },       // presunto + abacaxi
+  { sabor: 'rucula-tomate-seco', src: 'pizzas-salgadas/sottiles-salgadas-102', zoom: 0.9 }, // folhas de rúcula
+  { sabor: 'catubeleza', src: 'pizzas-salgadas/sottiles-salgadas-31', zoom: 0.92 },      // calabresa + requeijão em tiras
+  { sabor: 'frango-requeijao', src: 'pizzas-salgadas/sottiles-salgadas-42', zoom: 0.92 },// frango desfiado + requeijão
+  { sabor: 'presunto', src: 'pizzas-salgadas/sottiles-salgadas-5', zoom: 0.95 },         // fatias de presunto
+  { sabor: 'napolitana', src: 'pizzas-salgadas/sottiles-salgadas-41', zoom: 0.9 },       // muitas rodelas de tomate
+
+  // doces
+  { sabor: 'alegria', src: 'pizzas-doces/pizzaria-sottiles-92', zoom: 0.88 },            // confetes coloridos
+  { sabor: 'brigadeiro', src: 'pizzas-doces/pizzaria-sottiles-76', zoom: 0.9 },          // granulado de chocolate
+  { sabor: 'dois-amores', src: 'pizzas-doces/pizzaria-sottiles-89', zoom: 0.92 },        // discos de chocolate branco
+  { sabor: 'biscoito', src: 'pizzas-doces/pizzaria-sottiles-86', zoom: 0.92 },           // biscoitos inteiros
+  { sabor: 'sensacao', src: 'pizzas-doces/pizzaria-sottiles-108', zoom: 0.9 },           // cerejas
+  { sabor: 'ferrero', src: 'pizzas-doces/pizzaria-sottiles-117', zoom: 0.78 },           // avelã triturada (pote de Nutella no set)
+  { sabor: 'romeu-julieta', src: 'pizzas-doces/pizzaria-sottiles-122', zoom: 0.9 },      // cubos de goiabada sobre mussarela
+  { sabor: 'banoffe', src: 'pizzas-doces/pizzaria-sottiles-104', zoom: 0.9 },            // banana + chantilly
+  { sabor: 'choconana', src: 'pizzas-doces/pizzaria-sottiles-94', zoom: 0.9 },           // banana sobre chocolate
+  { sabor: 'maltine', src: 'pizzas-doces/pizzaria-sottiles-71', zoom: 0.9 },             // pó de Ovomaltine
 ];
 
 /**

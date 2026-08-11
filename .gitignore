@@ -7,3 +7,11 @@ Thumbs.db
 
 # folhas de contato: material de trabalho, regeravel com npm run contato
 tools/contato-sabores/
+
+# entregas: tudo aqui e gerado por npm run bundle / npm run unico.
+# Ficavam versionados, mas sao ~8 MB reescritos a cada build — o .git ja passou
+# de 370 MB por causa disso. Regere quando precisar.
+entregas/
+
+# originais do ensaio (5 GB): estao no Drive e no assets/fotos otimizado
+originais-do-ensaio/

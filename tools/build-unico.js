@@ -15,7 +15,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const SAIDA = 'sottiles-site-unico.html';
+const SAIDA = path.join('entregas', 'sottiles-site-unico.html');
 const lerTexto = (f) => fs.readFileSync(path.join(ROOT, f), 'utf8');
 const lerBin = (f) => fs.readFileSync(path.join(ROOT, f));
 
@@ -178,6 +178,7 @@ html = html.replace(
 // o manifesto depende de arquivo externo; num HTML solto so daria 404
 html = html.replace(/\n?\s*<link rel="manifest"[^>]*>/, '');
 
+fs.mkdirSync(path.join(ROOT, 'entregas'), { recursive: true });
 fs.writeFileSync(path.join(ROOT, SAIDA), html, 'utf8');
 
 const mb = (fs.statSync(path.join(ROOT, SAIDA)).size / 1024 / 1024).toFixed(2);

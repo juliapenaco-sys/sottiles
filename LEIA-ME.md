@@ -17,10 +17,10 @@ a home e dá ao cardápio uma página própria, com busca e endereço para compa
 
 ## Como abrir
 
-**Modo mais simples:** dê dois cliques em **`sottiles-site-completo.html`**.
+**Modo mais simples:** dê dois cliques em **`entregas/sottiles-site-completo.html`**.
 É o site inteiro dentro de um arquivo só — imagens, fontes, CSS e JavaScript
 embutidos. Abre offline e dá para mandar por WhatsApp ou e-mail. O cardápio vira
-o `sottiles-cardapio-completo.html`, e um linka para o outro.
+o `entregas/sottiles-cardapio-completo.html`, e um linka para o outro.
 
 **Modo de desenvolvimento** (para editar e ver as mudanças):
 

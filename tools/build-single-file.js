@@ -13,6 +13,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
+const DESTINO = 'entregas';   // tudo que e gerado sai da raiz e vai para ca
 const lerTexto = (f) => fs.readFileSync(path.join(ROOT, f), 'utf8');
 const lerBin = (f) => fs.readFileSync(path.join(ROOT, f));
 
@@ -122,9 +123,10 @@ function montar(pagina) {
     html = html.split('href="' + p.entrada + '#').join('href="' + p.saida + '#');
   });
 
-  fs.writeFileSync(path.join(ROOT, pagina.saida), html, 'utf8');
+  fs.mkdirSync(path.join(ROOT, DESTINO), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, DESTINO, pagina.saida), html, 'utf8');
 
-  const kb = (fs.statSync(path.join(ROOT, pagina.saida)).size / 1024).toFixed(0);
+  const kb = (fs.statSync(path.join(ROOT, DESTINO, pagina.saida)).size / 1024).toFixed(0);
   // so interessa o que o navegador tenta BAIXAR: src e href de elementos.
   // Caminhos dentro do og:image e do JSON-LD sao metadado, nao recurso.
   const pendentes = (html.match(/(?:src|href)="assets\//g) || []).length;
@@ -132,4 +134,4 @@ function montar(pagina) {
 }
 
 PAGINAS.forEach(montar);
-console.log('\nAbra com dois cliques: sottiles-site-completo.html');
+console.log('\nAbra com dois cliques: entregas/sottiles-site-completo.html');

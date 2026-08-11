@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E3714">
+<meta name="color-scheme" content="light">
+
+<title>Sottile's Pizzaria | Rodízio, delivery e pizza em Petrópolis</title>
+<meta name="description" content="Há 15 anos em Petrópolis. Rodízio completo com bebida e sorvete liberados, à la carte e delivery. Unidades oficiais no Centro e no Alto da Serra. Peça pelo WhatsApp.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Sottile's Pizzaria">
+<meta property="og:title" content="Sottile's Pizzaria — a pizzaria mais famosa de Petrópolis">
+<meta property="og:description" content="Rodízio completo, à la carte e delivery. Centro e Alto da Serra. Peça pelo WhatsApp.">
+<!-- Quando o domínio existir: troque og:image por um endereço completo (https://seudominio.com.br/assets/img/og-sottiles.jpg)
+     e acrescente <link rel="canonical"> e <meta property="og:url">. Sem isso o WhatsApp e o Facebook não mostram a prévia. -->
+<meta property="og:image" content="assets/img/og-sottiles.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Pizza da Sottile's Pizzaria vista de cima">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/icon-180.png">
+<link rel="manifest" href="site.webmanifest">
+
+<link rel="preload" href="assets/fonts/bungee-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/poppins-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/poppins-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="assets/img/hero-pizza-400.webp"
+      imagesrcset="assets/img/hero-pizza-400.webp 400w, assets/img/hero-pizza-600.webp 600w, assets/img/hero-pizza-800.webp 800w, assets/img/hero-pizza-1100.webp 1100w"
+      imagesizes="(max-width: 900px) 50vw, 310px" fetchpriority="high">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ══════════════════════════ CABEÇALHO ══════════════════════════ -->
+<header class="topo" id="topo">
+  <div class="topo__barra">
+    <a class="topo__logo" href="#topo" aria-label="Sottile's Pizzaria, ir para o início">
+      <img src="assets/img/logo-200.webp" srcset="assets/img/logo-200.webp 200w, assets/img/logo-320.webp 320w, assets/img/logo-440.webp 440w"
+           sizes="132px" width="320" height="154" alt="Sottile's Pizzaria" decoding="async">
+    </a>
+
+    <nav class="topo__links" aria-label="Navegação principal">
+      <a href="#cardapio">Cardápio</a>
+      <a href="#modalidades">Como funciona</a>
+      <a href="#ambientes">Ambientes</a>
+      <a href="#unidades">Unidades</a>
+    </nav>
+
+    <a class="btn btn--zap topo__cta" href="https://wa.me/5524988441010" data-zap="central" target="_blank" rel="noopener">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.94.53 3.76 1.46 5.32L2 22.5l5.5-1.6a9.8 9.8 0 0 0 4.54 1.12h.01c5.43 0 9.84-4.4 9.84-9.84S17.47 2 12.04 2Zm5.76 14.1c-.24.68-1.4 1.3-1.94 1.34-.5.05-.97.23-3.28-.7-2.76-1.1-4.5-3.94-4.64-4.12-.13-.18-1.1-1.48-1.1-2.82s.7-2 .95-2.28c.24-.27.53-.34.7-.34l.5.01c.16 0 .38-.06.6.46.23.55.77 1.9.84 2.04.07.14.11.3.02.48-.09.18-.13.29-.26.45l-.4.46c-.13.13-.26.28-.11.54.14.27.64 1.06 1.38 1.72.95.85 1.75 1.11 2 1.24.25.14.4.11.54-.07.14-.18.62-.72.78-.97.16-.25.32-.2.54-.12.22.08 1.4.66 1.64.78.24.12.4.18.46.28.05.1.05.6-.19 1.28Z"/></svg>
+      Pedir
+    </a>
+
+    <button class="topo__menu" type="button" aria-expanded="false" aria-controls="menu-mobile" aria-label="Abrir menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- menu overlay (mobile) -->
+<div class="mmenu" id="menu-mobile" hidden>
+  <nav class="mmenu__nav" aria-label="Navegação">
+    <a href="#cardapio"><i>01</i> Cardápio</a>
+    <a href="#modalidades"><i>02</i> Como funciona</a>
+    <a href="#ambientes"><i>03</i> Ambientes</a>
+    <a href="#unidades"><i>04</i> Unidades</a>
+    <a href="#instagram"><i>05</i> Instagram</a>
+  </nav>
+  <div class="mmenu__pe">
+    <a class="btn btn--zap btn--bloco" href="https://wa.me/5524988441010" data-zap="central" target="_blank" rel="noopener">Peça pelo WhatsApp</a>
+    <p>Dom a qui, 17h às 23h · Sex e sáb, 17h à meia-noite</p>
+  </div>
+</div>
+
+<main id="conteudo">
+
+<!-- ══════════════════════════ HERO ══════════════════════════ -->
+<section class="hero" aria-labelledby="h1">
+  <div class="hero__fundo" aria-hidden="true"></div>
+
+  <div class="hero__grade">
+    <p class="hero__olho a-1">Petrópolis · desde 2011</p>
+
+    <h1 class="hero__titulo" id="h1">
+      <span class="a-2">A pizzaria</span>
+      <span class="a-3">mais famosa</span>
+      <span class="a-4">da cidade<em>.</em></span>
+    </h1>
+
+    <div class="hero__disco a-3">
+      <img src="assets/img/hero-pizza-400.webp"
+           srcset="assets/img/hero-pizza-400.webp 400w, assets/img/hero-pizza-600.webp 600w, assets/img/hero-pizza-800.webp 800w, assets/img/hero-pizza-1100.webp 1100w"
+           sizes="(max-width: 900px) 50vw, 310px"
+           width="760" height="760" alt="Pizza da Sottile's Pizzaria vista de cima"
+           fetchpriority="high" decoding="async">
+      <span class="hero__selo" aria-hidden="true">
+        <svg viewBox="0 0 100 100"><defs><path id="circ" d="M50,50 m-37,0 a37,37 0 1,1 74,0 a37,37 0 1,1 -74,0"/></defs>
+          <text><textPath href="#circ">RODÍZIO · DELIVERY · À LA CARTE · 15 ANOS · </textPath></text></svg>
+      </span>
+    </div>
+
+    <p class="hero__texto a-4">Rodízio completo com refrigerante e sorvete liberados, à la carte no salão e delivery quentinho na sua casa. Duas unidades oficiais em Petrópolis.</p>
+
+    <div class="hero__acoes a-5">
+      <a class="btn btn--zap btn--g" href="https://wa.me/5524988441010" data-zap="central" target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.94.53 3.76 1.46 5.32L2 22.5l5.5-1.6a9.8 9.8 0 0 0 4.54 1.12h.01c5.43 0 9.84-4.4 9.84-9.84S17.47 2 12.04 2Zm5.76 14.1c-.24.68-1.4 1.3-1.94 1.34-.5.05-.97.23-3.28-.7-2.76-1.1-4.5-3.94-4.64-4.12-.13-.18-1.1-1.48-1.1-2.82s.7-2 .95-2.28c.24-.27.53-.34.7-.34l.5.01c.16 0 .38-.06.6.46.23.55.77 1.9.84 2.04.07.14.11.3.02.48-.09.18-.13.29-.26.45l-.4.46c-.13.13-.26.28-.11.54.14.27.64 1.06 1.38 1.72.95.85 1.75 1.11 2 1.24.25.14.4.11.54-.07.14-.18.62-.72.78-.97.16-.25.32-.2.54-.12.22.08 1.4.66 1.64.78.24.12.4.18.46.28.05.1.05.6-.19 1.28Z"/></svg>
+        Peça pelo WhatsApp
+      </a>
+      <a class="btn btn--vidro btn--g" href="#cardapio">Ver o cardápio</a>
+    </div>
+
+    <ul class="hero__provas a-5">
+      <li><b>4,5<span>★</span></b> 703 avaliações no Google</li>
+      <li><b>15</b> anos de Petrópolis</li>
+      <li><b>34,8&nbsp;mil</b> seguidores no Instagram</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══════════════════════════ FAIXA CINÉTICA ══════════════════════════ -->
+<div class="faixa" aria-hidden="true">
+  <div class="faixa__trilho">
+    <span>Rodízio completo <i>◆</i> Delivery quentinho <i>◆</i> À la carte <i>◆</i> Área kids <i>◆</i> Sorvete liberado <i>◆</i> Mais de 80 sabores <i>◆</i> </span>
+    <span>Rodízio completo <i>◆</i> Delivery quentinho <i>◆</i> À la carte <i>◆</i> Área kids <i>◆</i> Sorvete liberado <i>◆</i> Mais de 80 sabores <i>◆</i> </span>
+  </div>
+</div>
+
+<!-- ══════════════════════════ MARCA ══════════════════════════ -->
+<section class="marca" aria-labelledby="h-marca" id="sobre">
+  <div class="env">
+    <p class="olho rv">Quem faz</p>
+    <h2 class="tit-g rv" id="h-marca">Quinze anos fazendo<br><span class="grifo">a pizza de Petrópolis</span></h2>
+    <div class="marca__texto">
+      <p class="rv">A Sottile's começou pequena e virou ponto de encontro. Hoje são duas casas na cidade, mais de 80 sabores entre salgadas e doces, e um rodízio em que refrigerante e sorvete entram junto — sem letra miúda.</p>
+      <p class="rv">A massa sai do forno do mesmo jeito desde o começo: fina na borda, cheia no meio, quente na mesa ou na sua porta. É por isso que 703 pessoas pararam para dar nota no Google e a média ficou em 4,5.</p>
+    </div>
+    <ul class="marca__pilares">
+      <li class="rv"><b>Massa artesanal</b><span>Feita todo dia na casa, assada na hora do pedido.</span></li>
+      <li class="rv"><b>Entrega quente</b><span>Rota curta dentro de Petrópolis e embalagem que segura o calor.</span></li>
+      <li class="rv"><b>Salão para todo mundo</b><span>Área kids, sorveteria própria e estacionamento pertinho.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══════════════════════════ MODALIDADES ══════════════════════════ -->
+<section class="modos" id="modalidades" aria-labelledby="h-modos">
+  <div class="env">
+    <p class="olho rv">Como funciona</p>
+    <h2 class="tit-g rv" id="h-modos">Três jeitos de<br>comer Sottile's</h2>
+
+    <ol class="modos__lista">
+      <li class="modo rv">
+        <span class="modo__num" aria-hidden="true">01</span>
+        <div class="modo__corpo">
+          <h3>Rodízio</h3>
+          <p class="modo__linha">Preço único · no salão · tudo incluso</p>
+          <p>Você senta e a pizza vem até a mesa, salgada e doce, sem contar fatia. Refrigerante ou suco e o sorvete da <b>Sorvettile's</b> já estão inclusos no preço. Bom para família grande e mesa cheia.</p>
+          <a class="link-seta" href="#unidades">Ver horários das unidades</a>
+        </div>
+      </li>
+      <li class="modo rv">
+        <span class="modo__num" aria-hidden="true">02</span>
+        <div class="modo__corpo">
+          <h3>À la carte</h3>
+          <p class="modo__linha">No salão · você escolhe o sabor e o tamanho</p>
+          <p>Prefere pedir só a sua? Escolha entre mais de 80 sabores, do tamanho pequeno de 25&nbsp;cm ao hiper de 45&nbsp;cm, com borda recheada se quiser caprichar.</p>
+          <a class="link-seta" href="#cardapio">Abrir o cardápio</a>
+        </div>
+      </li>
+      <li class="modo rv">
+        <span class="modo__num" aria-hidden="true">03</span>
+        <div class="modo__corpo">
+          <h3>Delivery</h3>
+          <p class="modo__linha">Em Petrópolis · pedido pelo WhatsApp</p>
+          <p>Manda a mensagem, escolhe o sabor e acompanha o pedido pela conversa. A pizza sai do forno e vai embalada para chegar quente na sua casa.</p>
+          <a class="link-seta" href="https://wa.me/5524988441010" data-zap="central" target="_blank" rel="noopener">Pedir agora no WhatsApp</a>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ══════════════════════════ CARDÁPIO ══════════════════════════ -->
+<section class="cardapio" id="cardapio" aria-labelledby="h-cardapio">
+  <div class="env">
+    <p class="olho rv">Cardápio</p>
+    <h2 class="tit-g rv" id="h-cardapio">Escolha o seu<br><span class="grifo">sabor favorito</span></h2>
+    <p class="sub rv">Mais de 80 opções entre salgadas, doces e sobremesas. Todas as pizzas salgadas já vêm com molho, mussarela e orégano.</p>
+  </div>
+
+  <!-- destaques com foto -->
+  <div class="env">
+    <h3 class="carrossel__tit rv">Direto do forno</h3>
+    <p class="carrossel__nota rv">Fotos das nossas pizzas, feitas na nossa cozinha. O sabor você escolhe na lista abaixo.</p>
+  </div>
+  <ul class="carrossel" aria-label="Fotos das pizzas da Sottile's">
+    <li class="pcard">
+      <img src="assets/img/pizza-pepperoni-400.webp" srcset="assets/img/pizza-pepperoni-400.webp 400w, assets/img/pizza-pepperoni-640.webp 640w, assets/img/pizza-pepperoni-900.webp 900w" sizes="(max-width:760px) 62vw, 260px" width="400" height="400" loading="lazy" decoding="async" alt="Pizza salgada da Sottile's Pizzaria vista de cima">
+    </li>
+    <li class="pcard">
+      <img src="assets/img/pizza-calabresa-400.webp" srcset="assets/img/pizza-calabresa-400.webp 400w, assets/img/pizza-calabresa-640.webp 640w, assets/img/pizza-calabresa-900.webp 900w" sizes="(max-width:760px) 62vw, 260px" width="400" height="400" loading="lazy" decoding="async" alt="Pizza salgada da Sottile's sobre a mesa de madeira">
+    </li>
+    <li class="pcard">
+      <img src="assets/img/pizza-marguerita-400.webp" srcset="assets/img/pizza-marguerita-400.webp 400w, assets/img/pizza-marguerita-640.webp 640w, assets/img/pizza-marguerita-900.webp 900w" sizes="(max-width:760px) 62vw, 260px" width="400" height="400" loading="lazy" decoding="async" alt="Pizza da Sottile's com o guardanapo verde da marca ao lado">
+    </li>
+    <li class="pcard">
+      <img src="assets/img/pizza-catubeleza-400.webp" srcset="assets/img/pizza-catubeleza-400.webp 400w, assets/img/pizza-catubeleza-640.webp 640w, assets/img/pizza-catubeleza-900.webp 900w" sizes="(max-width:760px) 62vw, 260px" width="400" height="400" loading="lazy" decoding="async" alt="Pizza salgada da Sottile's Pizzaria, em Petrópolis">
+    </li>
+    <li class="pcard">
+      <img src="assets/img/pizza-porquinhos-400.webp" srcset="assets/img/pizza-porquinhos-400.webp 400w, assets/img/pizza-porquinhos-640.webp 640w, assets/img/pizza-porquinhos-900.webp 900w" sizes="(max-width:760px) 62vw, 260px" width="400" height="400" loading="lazy" decoding="async" alt="Pizza grande da Sottile's Pizzaria vista de cima">
+    </li>
+    <li class="pcard">
+      <img src="assets/img/pizza-queijos-400.webp" srcset="assets/img/pizza-queijos-400.webp 400w, assets/img/pizza-queijos-640.webp 640w, assets/img/pizza-queijos-900.webp 900w" sizes="(max-width:760px) 62vw, 260px" width="400" height="400" loading="lazy" decoding="async" alt="Pizza salgada assada na Sottile's Pizzaria">
+    </li>
+    <li class="pcard">
+      <img src="assets/img/pizza-biscoito-400.webp" srcset="assets/img/pizza-biscoito-400.webp 400w, assets/img/pizza-biscoito-640.webp 640w, assets/img/pizza-biscoito-900.webp 900w" sizes="(max-width:760px) 62vw, 260px" width="400" height="400" loading="lazy" decoding="async" alt="Pizza doce da Sottile's Pizzaria">
+    </li>
+    <li class="pcard">
+      <img src="assets/img/pizza-banoffe-400.webp" srcset="assets/img/pizza-banoffe-400.webp 400w, assets/img/pizza-banoffe-640.webp 640w, assets/img/pizza-banoffe-900.webp 900w" sizes="(max-width:760px) 62vw, 260px" width="400" height="400" loading="lazy" decoding="async" alt="Pizza doce da Sottile's sobre a tábua">
+    </li>
+    <li class="pcard">
+      <img src="assets/img/sobremesa-brownie-400.webp" srcset="assets/img/sobremesa-brownie-400.webp 400w, assets/img/sobremesa-brownie-640.webp 640w, assets/img/sobremesa-brownie-900.webp 900w" sizes="(max-width:760px) 62vw, 260px" width="400" height="400" loading="lazy" decoding="async" alt="Sobremesa da Sottile's Pizzaria">
+    </li>
+  </ul>
+
+  <!-- controles -->
+  <div class="env">
+    <div class="filtro" id="filtro">
+      <label class="filtro__busca">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 3a7 7 0 1 0 4.2 12.6l4.1 4.1 1.4-1.4-4.1-4.1A7 7 0 0 0 10 3Zm0 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z"/></svg>
+        <input type="search" id="busca" placeholder="Buscar sabor ou ingrediente" aria-label="Buscar sabor ou ingrediente" autocomplete="off">
+      </label>
+      <div class="filtro__chips" role="tablist" aria-label="Categorias do cardápio">
+        <button class="chip is-on" type="button" data-cat="tudo">Tudo</button>
+        <button class="chip" type="button" data-cat="salgadas">Salgadas</button>
+        <button class="chip" type="button" data-cat="doces">Doces</button>
+        <button class="chip" type="button" data-cat="sobremesas">Sobremesas</button>
+        <button class="chip" type="button" data-cat="bordas">Bordas e extras</button>
+      </div>
+    </div>
+
+    <p class="filtro__vazio" id="sem-resultado" hidden>Não achamos esse sabor por aqui. Tente outro ingrediente — ou pergunte pra gente no WhatsApp.</p>
+
+    <!-- ---------- SALGADAS ---------- -->
+    <div class="grupo" data-grupo="salgadas">
+      <h3 class="grupo__tit">Pizzas salgadas</h3>
+      <p class="grupo__nota">Todas acompanham molho, mussarela e orégano.</p>
+      <ul class="itens">
+        <li class="item" data-cat="salgadas"><span class="dot dot--amarelo" title="Faixa amarela"></span><b>Mussarela</b><span>Molho, mussarela e orégano</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--verde"></span><b>Presunto</b><span>Presunto e mussarela</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--verde"></span><b>Calabresa</b><span>Calabresa em rodelas</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Gorgonzola</b><span>Gorgonzola e mussarela</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--amarelo"></span><b>Marguerita</b><span>Manjericão e tomate</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>4 queijos</b><span>Mussarela, parmesão, provolone e requeijão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>4 estações</b><span>Presunto, calabresa, atum, champignon, azeitona e cebola</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Champignon</b><span>Champignon e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Salaminho</b><span>Salaminho e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Portuguesa</b><span>Presunto, ovo, pimentão, cebola e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--amarelo"></span><b>Alho</b><span>Alho torrado</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--verde"></span><b>Atum</b><span>Atum e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Do cheff</b><span>Presunto, champignon e cheddar</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--laranja"></span><b>Da dona</b><span>Presunto, champignon, bacon, cebola e requeijão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Moda da casa</b><span>Presunto, ovo, cebola, champignon e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Mista</b><span>Presunto, frango desfiado, champignon e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Vegetariana</b><span>Champignon e palmito</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Frango com requeijão</b><span>Frango desfiado e requeijão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Napolitana</b><span>Parmesão e muitas rodelas de tomate</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Clássica</b><span>Manjericão, presunto, frango desfiado e parmesão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Bacon</b><span>Alho torrado, champignon, bacon e requeijão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Siciliana</b><span>Alho torrado, calabresa, champignon, cebola e requeijão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--branco"></span><b>Toda sua</b><span>Mussarela + 5 ingredientes deste cardápio (exceto camarão)</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--laranja"></span><b>Hot</b><span>Manjericão, calabresa, champignon, cebola e pimenta malagueta, com mussarela por cima</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Light</b><span>Peito de peru e palmito</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Favorita</b><span>Lombo canadense, bacon e provolone</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Carne seca</b><span>Carne seca e cebola</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Premito</b><span>Presunto, palmito e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Tomate seco</b><span>Alho torrado, tomate seco, champignon e requeijão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>3 porquinhos</b><span>Presunto, calabresa e bacon</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Roma</b><span>Presunto, ovo e cebola, com mussarela por cima</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Baiana</b><span>Calabresa, pimenta, ovo e cebola</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Pepperoni</b><span>Pepperoni e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Havaiana</b><span>Presunto e abacaxi</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Frangonofe</b><span>Estrogonofe de frango e batata palha</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--verde"></span><b>Alho poró</b><span>Alho poró, azeitona, tomate picado e gorgonzola</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--laranja"></span><b>Costelinha</b><span>Costela desfiada, cebola e molho barbecue</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--roxo"></span><b>Camarão premium</b><span>Camarão, alho poró e cream cheese</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--roxo"></span><b>Camarão</b><span>Generosa camada de camarão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--branco"></span><b>La stracca</b><span>Carne seca, queijo coalho e polenguinho</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Paulista</b><span>Alho torrado, lombo canadense, milho, azeitona, cebola e parmesão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Caipira</b><span>Lombo canadense, calabresa, ovo, pimentão, azeitona, cebola e parmesão</span></li>
+        <li class="item item--casa" data-cat="salgadas"><span class="dot dot--azul"></span><b>Sottile's</b><span>Parmesão, provolone, palmito e tomate picado</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>3 queijos</b><span>Mussarela, parmesão e requeijão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Rústica</b><span>Manjericão, lombo canadense, champignon e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--verde"></span><b>Palmito</b><span>Salsinha, cebolinha, palmito e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Ipanema</b><span>Atum, cebola e parmesão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Catubeleza</b><span>Calabresa e requeijão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--branco"></span><b>6 queijos</b><span>Mussarela, parmesão, provolone, gorgonzola, requeijão e cheddar</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Copacabana</b><span>Calabresa, cebola e cheddar</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--verde"></span><b>Crocante</b><span>Batata palha e parmesão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Rúcula com tomate seco</b><span>Rúcula, tomate seco e azeitona</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--branco"></span><b>Americana</b><span>Salsinha, cebolinha, presunto, ovo, bacon, champignon e parmesão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Veras</b><span>Alho torrado, presunto, calabresa, ovo, champignon e cebola</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--azul"></span><b>Dominicana</b><span>Peito de peru, milho, ervilha, azeitona, cebola e requeijão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--verde"></span><b>Picante</b><span>Manjericão, salaminho, azeitona e pimenta malagueta</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--branco"></span><b>5 queijos</b><span>Mussarela, parmesão, provolone, gorgonzola e requeijão</span></li>
+        <li class="item" data-cat="salgadas"><span class="dot dot--vermelho"></span><b>Canadense</b><span>Lombo canadense e requeijão</span></li>
+      </ul>
+    </div>
+
+    <!-- ---------- DOCES ---------- -->
+    <div class="grupo" data-grupo="doces">
+      <h3 class="grupo__tit">Pizzas doces</h3>
+      <ul class="itens">
+        <li class="item" data-cat="doces"><span class="dot dot--vermelho"></span><b>Sensação</b><span>Chocolate ao leite, cereja e leite condensado</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--verde"></span><b>Prestígio</b><span>Chocolate ao leite e coco ralado</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--azul"></span><b>Alegria</b><span>Chocolate ao leite e confetes de chocolate</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--vermelho"></span><b>Churros</b><span>Doce de leite, açúcar e canela</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--vermelho"></span><b>Choconana</b><span>Chocolate ao leite e banana em rodelas</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--branco"></span><b>Ferrero</b><span>Nutella e avelã triturada</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--vermelho"></span><b>Banana com canela</b><span>Mussarela, banana em rodelas, açúcar e canela</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--vermelho"></span><b>Romeu e Julieta</b><span>Mussarela e goiabada</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--verde"></span><b>Maltine</b><span>Chocolate ao leite e Ovomaltine</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--laranja"></span><b>Cheesecake</b><span>Geleia de morango, cream cheese e chocolate branco caramelizado</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--azul"></span><b>Dois amores</b><span>Chocolate ao leite e chocolate branco</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--vermelho"></span><b>Paçoca</b><span>Doce de leite e amendoim granulado</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--verde"></span><b>Biscoito</b><span>Chocolate ao leite e biscoito</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--branco"></span><b>Juleu e Romieta</b><span>Goiabada e requeijão</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--azul"></span><b>Banoffe</b><span>Doce de leite, banana em rodelas, chantilly e canela</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--verde"></span><b>Banana nevada</b><span>Banana em rodelas e chocolate branco caramelizado</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--verde"></span><b>Brigadeiro</b><span>Chocolate ao leite e granulado de chocolate</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--vermelho"></span><b>Queijadinha</b><span>Coco ralado, leite condensado e parmesão</span></li>
+        <li class="item" data-cat="doces"><span class="dot dot--branco"></span><b>Nutella e Ninho</b><span>Nutella, banana em rodelas e leite em pó</span></li>
+      </ul>
+    </div>
+
+    <!-- ---------- SOBREMESAS ---------- -->
+    <div class="grupo" data-grupo="sobremesas">
+      <h3 class="grupo__tit">Sobremesas</h3>
+      <ul class="itens itens--preco">
+        <li class="item" data-cat="sobremesas"><b>Brownie <i class="preco">R$&nbsp;19</i></b><span>Brownie artesanal de chocolate, macio por dentro e com aquela casquinha irresistível.</span></li>
+        <li class="item" data-cat="sobremesas"><b>Brownie com sorvete <i class="preco">R$&nbsp;25</i></b><span>Brownie quentinho com uma bola generosa de sorvete, calda de chocolate e amendoim picado.</span></li>
+        <li class="item" data-cat="sobremesas"><b>Sorvete <i class="preco">R$&nbsp;6,99 / 100 g</i></b><span>Monte sua combinação na Sorvettile's, a sorveteria dentro da unidade Centro.</span></li>
+      </ul>
+    </div>
+
+    <!-- ---------- BORDAS ---------- -->
+    <div class="grupo" data-grupo="bordas">
+      <h3 class="grupo__tit">Bordas recheadas e adicionais</h3>
+      <p class="grupo__nota">Borda recheada: pequena R$&nbsp;18 · média R$&nbsp;19 · grande R$&nbsp;20 · super R$&nbsp;23 · hiper R$&nbsp;25</p>
+      <ul class="itens">
+        <li class="item" data-cat="bordas"><b>Bordas doces</b><span>Romeu e julieta · doce de leite · creme com Nutella</span></li>
+        <li class="item" data-cat="bordas"><b>Bordas salgadas</b><span>Mussarela · requeijão · cheddar · cream cheese</span></li>
+        <li class="item" data-cat="bordas"><b>Adicionais</b><span>Calabresa · presunto · frango</span></li>
+      </ul>
+    </div>
+
+    <!-- ---------- TABELA DE PREÇOS ---------- -->
+    <details class="precos rv">
+      <summary><b>Tamanhos e preços</b><span>Cada sabor tem uma cor. A cor indica a faixa de preço.</span></summary>
+      <div class="precos__rolo">
+        <table>
+          <caption class="vh">Preços por faixa de cor e tamanho da pizza</caption>
+          <thead>
+            <tr><th scope="col">Faixa</th><th scope="col">Pequena<br><small>25&nbsp;cm</small></th><th scope="col">Média<br><small>30&nbsp;cm</small></th><th scope="col">Grande<br><small>35&nbsp;cm</small></th><th scope="col">Super<br><small>40&nbsp;cm</small></th><th scope="col">Hiper<br><small>45&nbsp;cm</small></th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row"><span class="dot dot--amarelo"></span>Amarela</th><td>60,90</td><td>71,90</td><td>85,90</td><td>110,90</td><td>131,90</td></tr>
+            <tr><th scope="row"><span class="dot dot--verde"></span>Verde</th><td>62,90</td><td>73,90</td><td>87,90</td><td>112,90</td><td>133,90</td></tr>
+            <tr><th scope="row"><span class="dot dot--vermelho"></span>Vermelha</th><td>63,90</td><td>74,90</td><td>88,90</td><td>113,90</td><td>134,90</td></tr>
+            <tr><th scope="row"><span class="dot dot--azul"></span>Azul</th><td>64,90</td><td>75,90</td><td>89,90</td><td>114,90</td><td>135,90</td></tr>
+            <tr><th scope="row"><span class="dot dot--laranja"></span>Laranja</th><td>66,90</td><td>77,90</td><td>91,90</td><td>116,90</td><td>137,90</td></tr>
+            <tr><th scope="row"><span class="dot dot--branco"></span>Branca</th><td>69,90</td><td>80,90</td><td>94,90</td><td>117,90</td><td>140,90</td></tr>
+            <tr><th scope="row"><span class="dot dot--roxo"></span>Roxa</th><td>82,90</td><td>93,90</td><td>105,90</td><td>146,90</td><td>169,90</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="precos__obs">Pedindo qualquer pizza nos tamanhos super ou hiper, o refrigerante de 2&nbsp;litros vai junto. Troca por Coca-Cola por R$&nbsp;4. Valores do cardápio vigente, sujeitos a alteração.</p>
+    </details>
+
+    <div class="cardapio__cta rv">
+      <p>Já sabe o que quer?</p>
+      <a class="btn btn--zap btn--g" href="https://wa.me/5524988441010" data-zap="central" target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.94.53 3.76 1.46 5.32L2 22.5l5.5-1.6a9.8 9.8 0 0 0 4.54 1.12h.01c5.43 0 9.84-4.4 9.84-9.84S17.47 2 12.04 2Zm5.76 14.1c-.24.68-1.4 1.3-1.94 1.34-.5.05-.97.23-3.28-.7-2.76-1.1-4.5-3.94-4.64-4.12-.13-.18-1.1-1.48-1.1-2.82s.7-2 .95-2.28c.24-.27.53-.34.7-.34l.5.01c.16 0 .38-.06.6.46.23.55.77 1.9.84 2.04.07.14.11.3.02.48-.09.18-.13.29-.26.45l-.4.46c-.13.13-.26.28-.11.54.14.27.64 1.06 1.38 1.72.95.85 1.75 1.11 2 1.24.25.14.4.11.54-.07.14-.18.62-.72.78-.97.16-.25.32-.2.54-.12.22.08 1.4.66 1.64.78.24.12.4.18.46.28.05.1.05.6-.19 1.28Z"/></svg>
+        Fazer meu pedido
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ AMBIENTES ══════════════════════════ -->
+<section class="amb" id="ambientes" aria-labelledby="h-amb">
+  <div class="env">
+    <p class="olho olho--claro rv">Unidade Centro</p>
+    <h2 class="tit-g tit-g--claro rv" id="h-amb">Um salão feito<br>para ficar</h2>
+    <p class="sub sub--claro rv">Mesas grandes, área kids com piscina de bolinhas e a Sorvettile's, nossa sorveteria dentro da loja. Enquanto a criança brinca, a mesa dos adultos rende.</p>
+  </div>
+
+  <ul class="galeria" aria-label="Fotos do salão da unidade Centro">
+    <li class="galeria__f galeria__f--alta">
+      <img src="assets/img/area-kids-560.webp" srcset="assets/img/area-kids-560.webp 560w, assets/img/area-kids-860.webp 860w, assets/img/area-kids-1280.webp 1280w" sizes="(max-width:760px) 82vw, 520px" width="860" height="573" loading="lazy" decoding="async" alt="Área kids da unidade Centro, com piscina de bolinhas e escorregadores">
+      <figcaption>Área kids</figcaption>
+    </li>
+    <li class="galeria__f">
+      <img src="assets/img/salao-amplo-560.webp" srcset="assets/img/salao-amplo-560.webp 560w, assets/img/salao-amplo-860.webp 860w, assets/img/salao-amplo-1280.webp 1280w" sizes="(max-width:760px) 82vw, 520px" width="860" height="573" loading="lazy" decoding="async" alt="Salão da unidade Centro com mesas de madeira e a área kids ao fundo">
+      <figcaption>Salão principal</figcaption>
+    </li>
+    <li class="galeria__f">
+      <img src="assets/img/salao-mesas-560.webp" srcset="assets/img/salao-mesas-560.webp 560w, assets/img/salao-mesas-860.webp 860w, assets/img/salao-mesas-1280.webp 1280w" sizes="(max-width:760px) 82vw, 520px" width="860" height="573" loading="lazy" decoding="async" alt="Mesas e cadeiras de madeira ao lado da parede de tijolinho com a placa Sottile's">
+      <figcaption>Mesas e cadeiras</figcaption>
+    </li>
+    <li class="galeria__f">
+      <img src="assets/img/sorvettiles-560.webp" srcset="assets/img/sorvettiles-560.webp 560w, assets/img/sorvettiles-860.webp 860w, assets/img/sorvettiles-1280.webp 1280w" sizes="(max-width:760px) 82vw, 520px" width="860" height="573" loading="lazy" decoding="async" alt="Sorvettile's, o canto da sorveteria dentro da unidade Centro, com fliperama ao lado">
+      <figcaption>Sorvettile's e fliperama</figcaption>
+    </li>
+    <li class="galeria__f">
+      <img src="assets/img/unidade-fachada-560.webp" srcset="assets/img/unidade-fachada-560.webp 560w, assets/img/unidade-fachada-860.webp 860w, assets/img/unidade-fachada-1280.webp 1280w" sizes="(max-width:760px) 82vw, 520px" width="860" height="573" loading="lazy" decoding="async" alt="Fachada iluminada da Sottile's Pizzaria na Rua Washington Luiz, Centro de Petrópolis">
+      <figcaption>Fachada, Rua Washington Luiz</figcaption>
+    </li>
+  </ul>
+
+  <div class="env amb__pe rv">
+    <p>Rodízio e à la carte no salão do Centro. Para grupos, dá para reservar mesa pelo WhatsApp.</p>
+    <a class="btn btn--creme" href="https://wa.me/5524988091011" data-zap="centro" target="_blank" rel="noopener">Falar com a unidade Centro</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════ UNIDADES ══════════════════════════ -->
+<section class="unid" id="unidades" aria-labelledby="h-unid">
+  <div class="env">
+    <p class="olho rv">Onde estamos</p>
+    <h2 class="tit-g rv" id="h-unid">Duas unidades.<br><span class="grifo">Só essas duas.</span></h2>
+    <p class="sub rv">A Sottile's Pizzaria funciona no Centro e no Alto da Serra, em Petrópolis. Qualquer outro estabelecimento que use o nome Sottile's não faz parte da nossa marca, do nosso cardápio e da nossa cozinha. Na dúvida, é só perguntar pra gente.</p>
+
+    <div class="unid__grade">
+      <article class="loja rv">
+        <header>
+          <span class="loja__tag">Unidade oficial</span>
+          <h3>Centro</h3>
+        </header>
+        <p class="loja__end">R. Washington Luiz, 335<br>Centro · Petrópolis, RJ<br>CEP 25655-007</p>
+        <ul class="loja__pontos">
+          <li>Rodízio, à la carte e delivery</li>
+          <li>Área kids e sorveteria Sorvettile's</li>
+          <li>Estacionamento pertinho do salão</li>
+        </ul>
+        <p class="loja__hora"><b>Dom a qui</b> 17h – 23h<br><b>Sex e sáb</b> 17h – 00h</p>
+        <div class="loja__acoes">
+          <a class="btn btn--zap" href="https://wa.me/5524988091011" data-zap="centro" target="_blank" rel="noopener">Pedir no WhatsApp</a>
+          <a class="btn btn--linha" href="https://www.google.com/maps/search/?api=1&amp;query=Sottile%27s+Pizzaria+R.+Washington+Luiz+335+Centro+Petr%C3%B3polis+RJ" target="_blank" rel="noopener">Como chegar</a>
+        </div>
+        <p class="loja__tel">Prefere ligar? <a href="tel:+552422420053" data-tel="centro">(24) 2242-0053</a></p>
+      </article>
+
+      <article class="loja rv">
+        <header>
+          <span class="loja__tag">Unidade oficial</span>
+          <h3>Alto da Serra</h3>
+        </header>
+        <p class="loja__end">R. Teresa, 1295<br>Alto da Serra · Petrópolis, RJ<br>CEP 25625-027</p>
+        <ul class="loja__pontos">
+          <li>Rodízio, à la carte e delivery</li>
+          <li>4,5 estrelas em 703 avaliações no Google</li>
+          <li>Na subida da Rua Teresa</li>
+        </ul>
+        <p class="loja__hora"><b>Dom a qui</b> 17h – 23h<br><b>Sex e sáb</b> 17h – 00h</p>
+        <div class="loja__acoes">
+          <a class="btn btn--zap" href="https://wa.me/5524988362272" data-zap="serra" target="_blank" rel="noopener">Pedir no WhatsApp</a>
+          <a class="btn btn--linha" href="https://www.google.com/maps/search/?api=1&amp;query=Sottile%27s+Pizzaria+R.+Teresa+1295+Alto+da+Serra+Petr%C3%B3polis+RJ" target="_blank" rel="noopener">Como chegar</a>
+        </div>
+        <p class="loja__tel">Prefere ligar? <a href="tel:+552422311207" data-tel="serra">(24) 2231-1207</a></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ PEDIDO / WHATSAPP ══════════════════════════ -->
+<section class="pedir" id="pedir" aria-labelledby="h-pedir">
+  <div class="env pedir__env">
+    <p class="olho olho--claro rv">Delivery e pedidos</p>
+    <h2 class="tit-x rv" id="h-pedir">Sua pizza está a uma mensagem de distância<em>.</em></h2>
+    <p class="pedir__txt rv">Manda a mensagem na nossa central de pedidos, escolhe o sabor e acompanha tudo pela conversa. Sem app, sem cadastro, sem enrolação.</p>
+
+    <div class="pedir__botoes rv">
+      <a class="btn btn--zap btn--g btn--bloco" href="https://wa.me/5524988441010" data-zap="central" target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.94.53 3.76 1.46 5.32L2 22.5l5.5-1.6a9.8 9.8 0 0 0 4.54 1.12h.01c5.43 0 9.84-4.4 9.84-9.84S17.47 2 12.04 2Zm5.76 14.1c-.24.68-1.4 1.3-1.94 1.34-.5.05-.97.23-3.28-.7-2.76-1.1-4.5-3.94-4.64-4.12-.13-.18-1.1-1.48-1.1-2.82s.7-2 .95-2.28c.24-.27.53-.34.7-.34l.5.01c.16 0 .38-.06.6.46.23.55.77 1.9.84 2.04.07.14.11.3.02.48-.09.18-.13.29-.26.45l-.4.46c-.13.13-.26.28-.11.54.14.27.64 1.06 1.38 1.72.95.85 1.75 1.11 2 1.24.25.14.4.11.54-.07.14-.18.62-.72.78-.97.16-.25.32-.2.54-.12.22.08 1.4.66 1.64.78.24.12.4.18.46.28.05.1.05.6-.19 1.28Z"/></svg>
+        <span>Pedir pelo WhatsApp</span>
+      </a>
+      <a class="btn btn--linha-claro btn--bloco" href="https://pedido.anota.ai/loja/sottilespizzaria" target="_blank" rel="noopener">Prefiro o cardápio digital</a>
+    </div>
+
+    <div class="contatos rv">
+      <p class="contatos__tit">Prefere falar direto com uma unidade?</p>
+      <div class="contatos__grade">
+        <div class="contato">
+          <h3>Centro</h3>
+          <a href="https://wa.me/5524988091011" data-zap="centro" target="_blank" rel="noopener"><b>WhatsApp</b> (24) 98809-1011</a>
+          <a href="tel:+552422420053" data-tel="centro"><b>Telefone</b> (24) 2242-0053</a>
+        </div>
+        <div class="contato">
+          <h3>Alto da Serra</h3>
+          <a href="https://wa.me/5524988362272" data-zap="serra" target="_blank" rel="noopener"><b>WhatsApp</b> (24) 98836-2272</a>
+          <a href="tel:+552422311207" data-tel="serra"><b>Telefone</b> (24) 2231-1207</a>
+        </div>
+      </div>
+    </div>
+
+    <ul class="pedir__faq">
+      <li class="rv"><details><summary>Quanto tempo demora a entrega?</summary><p>O tempo varia com o bairro e o movimento da noite. Assim que você manda a mensagem, a gente confirma na hora uma previsão real para o seu endereço — nada de estimativa automática.</p></details></li>
+      <li class="rv"><details><summary>A pizza chega quente?</summary><p>A pizza só entra na embalagem depois de sair do forno, e a embalagem segura o calor. As rotas são curtas dentro de Petrópolis justamente por isso.</p></details></li>
+      <li class="rv"><details><summary>A pizza vem igual à foto?</summary><p>As fotos deste site são das nossas pizzas, feitas na nossa cozinha. O recheio é o mesmo que está descrito no cardápio, sem miniatura de propaganda.</p></details></li>
+      <li class="rv"><details><summary>Vocês fazem rodízio no delivery?</summary><p>Não. O rodízio é uma experiência de salão, com pizza saindo do forno direto para a mesa e sorvete liberado. No delivery você pede à la carte, do tamanho que quiser.</p></details></li>
+      <li class="rv"><details><summary>Precisa reservar mesa?</summary><p>Nos dias mais cheios, sexta e sábado, vale garantir. Chame no WhatsApp ou ligue direto para a unidade e a gente organiza.</p></details></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══════════════════════════ INSTAGRAM ══════════════════════════ -->
+<section class="insta" id="instagram" aria-labelledby="h-insta">
+  <div class="env">
+    <div class="insta__topo">
+      <img class="insta__ava" src="assets/img/mascote-480.webp" width="120" height="120" loading="lazy" decoding="async" alt="Mascote chef da Sottile's Pizzaria">
+      <div>
+        <p class="insta__arroba">@sottilespizzaria</p>
+        <p class="insta__meta"><b>34,8 mil</b> seguidores · <b>2.298</b> posts</p>
+      </div>
+    </div>
+
+    <h2 class="tit-g rv" id="h-insta">A gente vive<br><span class="grifo">no Instagram</span></h2>
+    <p class="sub rv">Sabor novo, bastidor de cozinha, promoção relâmpago e a mesa cheia de todo mundo. Se você quer saber o que está saindo do forno hoje, é lá que acontece.</p>
+
+    <div class="insta__fita" aria-hidden="true">
+      <div class="insta__trilho">
+        <img src="assets/img/pizza-marguerita-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-catubeleza-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-banoffe-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-queijos-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-porquinhos-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-biscoito-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-calabresa-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/sobremesa-brownie-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-marguerita-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-catubeleza-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-banoffe-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-queijos-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-porquinhos-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-biscoito-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/pizza-calabresa-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+        <img src="assets/img/sobremesa-brownie-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="">
+      </div>
+    </div>
+
+    <a class="btn btn--insta btn--g rv" href="https://www.instagram.com/sottilespizzaria/" target="_blank" rel="noopener">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.8 3.8 0 0 1-1.38-.9 3.8 3.8 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2Zm0 1.8c-3.14 0-3.5.01-4.74.07-1.14.05-1.76.24-2.17.4-.55.21-.94.47-1.35.88-.41.41-.67.8-.88 1.35-.16.41-.35 1.03-.4 2.17C2.41 10.1 2.4 10.46 2.4 12s.01 1.9.07 3.14c.05 1.14.24 1.76.4 2.17.21.55.47.94.88 1.35.41.41.8.67 1.35.88.41.16 1.03.35 2.17.4 1.24.06 1.6.07 4.74.07s3.5-.01 4.74-.07c1.14-.05 1.76-.24 2.17-.4.55-.21.94-.47 1.35-.88.41-.41.67-.8.88-1.35.16-.41.35-1.03.4-2.17.06-1.24.07-1.6.07-3.14s-.01-1.9-.07-3.14c-.05-1.14-.24-1.76-.4-2.17a3.6 3.6 0 0 0-.88-1.35 3.6 3.6 0 0 0-1.35-.88c-.41-.16-1.03-.35-2.17-.4C15.5 4.01 15.14 4 12 4Zm0 3.03a4.97 4.97 0 1 1 0 9.94 4.97 4.97 0 0 1 0-9.94Zm0 1.8a3.17 3.17 0 1 0 0 6.34 3.17 3.17 0 0 0 0-6.34Zm5.2-3.24a1.16 1.16 0 1 1 0 2.32 1.16 1.16 0 0 1 0-2.32Z"/></svg>
+      Seguir @sottilespizzaria
+    </a>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════════════════════ RODAPÉ ══════════════════════════ -->
+<footer class="rodape">
+  <div class="env">
+    <img class="rodape__logo" src="assets/img/logo-320.webp" srcset="assets/img/logo-320.webp 320w, assets/img/logo-440.webp 440w" sizes="150px" width="320" height="154" loading="lazy" decoding="async" alt="Sottile's Pizzaria">
+    <p class="rodape__bordao">A pizzaria mais famosa da cidade.</p>
+
+    <div class="rodape__cols">
+      <div>
+        <h2>Unidades oficiais</h2>
+        <p><b>Centro</b><br>R. Washington Luiz, 335 — Petrópolis, RJ<br><a href="https://wa.me/5524988091011" data-zap="centro" target="_blank" rel="noopener">WhatsApp (24) 98809-1011</a><br><a href="tel:+552422420053" data-tel="centro">Telefone (24) 2242-0053</a></p>
+        <p><b>Alto da Serra</b><br>R. Teresa, 1295 — Petrópolis, RJ<br><a href="https://wa.me/5524988362272" data-zap="serra" target="_blank" rel="noopener">WhatsApp (24) 98836-2272</a><br><a href="tel:+552422311207" data-tel="serra">Telefone (24) 2231-1207</a></p>
+      </div>
+      <div>
+        <h2>Horário</h2>
+        <p>Domingo a quinta<br>17h às 23h</p>
+        <p>Sexta e sábado<br>17h à meia-noite</p>
+      </div>
+      <div>
+        <h2>Fale com a gente</h2>
+        <p><a href="https://wa.me/5524988441010" data-zap="central" target="_blank" rel="noopener">Central de pedidos no WhatsApp<br>(24) 98844-1010</a></p>
+        <p><a href="https://www.instagram.com/sottilespizzaria/" target="_blank" rel="noopener">Instagram @sottilespizzaria</a></p>
+        <p><a href="https://pedido.anota.ai/loja/sottilespizzaria" target="_blank" rel="noopener">Cardápio digital</a></p>
+      </div>
+    </div>
+
+    <p class="rodape__legal">Pizzaria em Petrópolis, RJ, com rodízio, à la carte e delivery. Atendemos apenas nas unidades Centro e Alto da Serra.</p>
+    <p class="rodape__legal">© <span id="ano">2026</span> Sottile's Pizzaria. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- ══════════════════════════ CTA FIXO (MOBILE) ══════════════════════════ -->
+<div class="barra-zap" id="barra-zap" hidden>
+  <a class="barra-zap__btn" href="https://wa.me/5524988441010" data-zap="central" target="_blank" rel="noopener">
+    <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.94.53 3.76 1.46 5.32L2 22.5l5.5-1.6a9.8 9.8 0 0 0 4.54 1.12h.01c5.43 0 9.84-4.4 9.84-9.84S17.47 2 12.04 2Zm5.76 14.1c-.24.68-1.4 1.3-1.94 1.34-.5.05-.97.23-3.28-.7-2.76-1.1-4.5-3.94-4.64-4.12-.13-.18-1.1-1.48-1.1-2.82s.7-2 .95-2.28c.24-.27.53-.34.7-.34l.5.01c.16 0 .38-.06.6.46.23.55.77 1.9.84 2.04.07.14.11.3.02.48-.09.18-.13.29-.26.45l-.4.46c-.13.13-.26.28-.11.54.14.27.64 1.06 1.38 1.72.95.85 1.75 1.11 2 1.24.25.14.4.11.54-.07.14-.18.62-.72.78-.97.16-.25.32-.2.54-.12.22.08 1.4.66 1.64.78.24.12.4.18.46.28.05.1.05.6-.19 1.28Z"/></svg>
+    <span>Peça pelo WhatsApp</span>
+  </a>
+</div>
+
+<script src="assets/js/main.js" charset="utf-8" defer></script>
+
+<!-- ══════════════════════════ DADOS ESTRUTURADOS (SEO) ══════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "#organizacao",
+      "name": "Sottile's Pizzaria",
+      "slogan": "A pizzaria mais famosa da cidade",
+      
+      "logo": "assets/img/logo.png",
+      "image": "assets/img/og-sottiles.jpg",
+      "foundingDate": "2011",
+      "areaServed": { "@type": "City", "name": "Petrópolis" },
+      "telephone": "+5524988441010",
+      "sameAs": ["https://www.instagram.com/sottilespizzaria/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "#site",
+      
+      "name": "Sottile's Pizzaria",
+      "inLanguage": "pt-BR",
+      "publisher": { "@id": "#organizacao" }
+    },
+    {
+      "@type": "Restaurant",
+      "@id": "#centro",
+      "name": "Sottile's Pizzaria — Centro",
+      "parentOrganization": { "@id": "#organizacao" },
+      "servesCuisine": ["Pizza", "Italiana", "Brasileira"],
+      "priceRange": "R$$",
+      "url": "#unidades",
+      "image": "assets/img/unidade-fachada-1280.webp",
+      "telephone": "+552422420053",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "R. Washington Luiz, 335",
+        "addressLocality": "Petrópolis",
+        "addressRegion": "RJ",
+        "postalCode": "25655-007",
+        "addressCountry": "BR"
+      },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday","Monday","Tuesday","Wednesday","Thursday"], "opens": "17:00", "closes": "23:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "17:00", "closes": "00:00" }
+      ],
+      "acceptsReservations": "True",
+      "hasMenu": "#cardapio",
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Área kids", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Rodízio de pizza", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Sorveteria", "value": true }
+      ]
+    },
+    {
+      "@type": "Restaurant",
+      "@id": "#altodaserra",
+      "name": "Sottile's Pizzaria — Alto da Serra",
+      "parentOrganization": { "@id": "#organizacao" },
+      "servesCuisine": ["Pizza", "Italiana", "Brasileira"],
+      "priceRange": "R$$",
+      "url": "#unidades",
+      "image": "assets/img/og-sottiles.jpg",
+      "telephone": "+552422311207",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "R. Teresa, 1295",
+        "addressLocality": "Petrópolis",
+        "addressRegion": "RJ",
+        "postalCode": "25625-027",
+        "addressCountry": "BR"
+      },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "703" },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday","Monday","Tuesday","Wednesday","Thursday"], "opens": "17:00", "closes": "23:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "17:00", "closes": "00:00" }
+      ],
+      "acceptsReservations": "True",
+      "hasMenu": "#cardapio"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "Quanto tempo demora a entrega da Sottile's?", "acceptedAnswer": { "@type": "Answer", "text": "O tempo varia com o bairro e o movimento da noite. Assim que você manda a mensagem no WhatsApp, a gente confirma na hora uma previsão real para o seu endereço." } },
+        { "@type": "Question", "name": "A pizza chega quente no delivery?", "acceptedAnswer": { "@type": "Answer", "text": "A pizza só entra na embalagem depois de sair do forno, e a embalagem segura o calor. As rotas são curtas dentro de Petrópolis justamente por isso." } },
+        { "@type": "Question", "name": "A Sottile's faz rodízio no delivery?", "acceptedAnswer": { "@type": "Answer", "text": "Não. O rodízio é uma experiência de salão, com pizza saindo do forno direto para a mesa, refrigerante e sorvete inclusos. No delivery o pedido é à la carte." } },
+        { "@type": "Question", "name": "Quais são as unidades oficiais da Sottile's Pizzaria?", "acceptedAnswer": { "@type": "Answer", "text": "São duas: Centro, na R. Washington Luiz, 335, e Alto da Serra, na R. Teresa, 1295, ambas em Petrópolis, RJ. Qualquer outro estabelecimento que use o nome Sottile's não faz parte da marca." } },
+        { "@type": "Question", "name": "Precisa reservar mesa na Sottile's?", "acceptedAnswer": { "@type": "Answer", "text": "Nas sextas e sábados vale garantir. É só chamar no WhatsApp da unidade." } }
+      ]
+    }
+  ]
+}
+</script>
+</body>
+</html>

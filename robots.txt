@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Quando o dominio estiver definido, gere um sitemap.xml com a URL real
+# e acrescente aqui:  Sitemap: https://seudominio.com.br/sitemap.xml

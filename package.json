@@ -1,0 +1,15 @@
+{
+  "name": "sottiles-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional e de conversao da Sottile's Pizzaria (Petropolis/RJ)",
+  "scripts": {
+    "images": "node tools/build-images.js",
+    "bundle": "node tools/build-single-file.js",
+    "start": "npx --yes serve . -l 5173",
+    "dev": "npx --yes serve . -l 5173"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  }
+}

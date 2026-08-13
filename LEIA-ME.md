@@ -210,7 +210,7 @@ HTML únicos.
 aparecer. Numa página que recebe tráfego pago, isso custa venda. O movimento
 todo é CSS + um `IntersectionObserver` + um `requestAnimationFrame`.
 
-**Site escuro.** As fotos do ensaio são quentes, sobre madeira e fundo escuro.
+**Site no verde da marca (`#044704`).** As fotos do ensaio são quentes, sobre madeira e fundo escuro.
 Num fundo creme elas competiam com a página; num fundo escuro elas brilham. As
 seções claras entram como respiro e para marcar mudança de assunto.
 

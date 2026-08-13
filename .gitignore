@@ -15,3 +15,8 @@ entregas/
 
 # originais do ensaio (5 GB): estao no Drive e no assets/fotos otimizado
 originais-do-ensaio/
+
+# copias que o Windows cria com Ctrl+C/Ctrl+V ("- Copia", "- Copy")
+*" - Copia"/
+*" - Copy"/
+*" - Cópia"/

@@ -501,7 +501,10 @@ button{font:inherit;color:inherit}
   box-shadow:0 40px 80px -30px rgba(0,0,0,.95),0 0 0 1px rgba(251,246,236,.08);
 }
 /* giro continuo lentissimo: a pizza "assa" enquanto a pagina esta parada */
-.hero__disco{animation:girar 68s linear infinite}
+/* 36s da uma volta: em 3 segundos de olhada a pizza anda 30 graus, o bastante
+   para o padrao das rodelas de tomate mudar de lugar e a rotacao ser notada.
+   Em 68s eram 16 graus, e numa forma quase simetrica isso passa batido. */
+.hero__disco{animation:girar 36s linear infinite}
 /* o anel de texto precisa correr POR FORA da borda da pizza. A caixa do selo
    e 18% maior que o disco e o raio do caminho e 46% dela: 54% do disco, ou
    seja, sempre fora dos 50% onde a foto termina. */

@@ -94,7 +94,7 @@ const DESTAQUES = [
   { nome: 'fatia-hero', src: 'icones-ifood/mussarela', ratio: 1, zoom: 0.9, foco: 0.02,
     larguras: [420, 620, 840, 1120], q: 72 },
   // disco redondo do hero: pizza centralizada, sobra de mesa cortada
-  { nome: 'disco-hero', src: 'pizzas-salgadas/sottiles-salgadas-34', ratio: 1, zoom: 0.99, focoX: 0.055,
+  { nome: 'disco-hero', src: 'pizzas-salgadas/sottiles-salgadas-34', ratio: 1, zoom: 0.90, focoX: 0.037, foco: -0.018,
     larguras: [360, 520, 720, 980], q: 72 },
 
   // ---- HOME · manifesto -----------------------------------------------

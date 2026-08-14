@@ -94,7 +94,7 @@ const DESTAQUES = [
   { nome: 'fatia-hero', src: 'icones-ifood/mussarela', ratio: 1, zoom: 0.9, foco: 0.02,
     larguras: [420, 620, 840, 1120], q: 72 },
   // disco redondo do hero: pizza centralizada, sobra de mesa cortada
-  { nome: 'disco-hero', src: 'pizzas-salgadas/sottiles-salgadas-34', ratio: 1, zoom: 0.90, focoX: 0.037, foco: -0.018,
+  { nome: 'disco-hero', src: 'pizzas-salgadas/sottiles-salgadas-34', ratio: 1, zoom: 0.90, focoX: 0.037, foco: -0.018, raio: 0.468,
     larguras: [360, 520, 720, 980], q: 72 },
 
   // ---- HOME · manifesto -----------------------------------------------
@@ -144,6 +144,29 @@ const DESTAQUES = [
 ];
 
 /** Recorte central com proporcao alvo, com zoom e deslocamento vertical. */
+/* Recorte redondo com fundo transparente.
+   Sem isso, a mascara circular do CSS mostra um pedaco da tabua de madeira nos
+   cantos — e, com o disco girando, a madeira gira junto e entrega que ali tem
+   fundo. Aqui a propria imagem vira um circulo com alfa, entao so a pizza gira.
+   O raio e menor que a metade de proposito: a pizza foi fotografada um pouco
+   fora do eixo e e levemente eliptica, entao o circulo tem que caber DENTRO
+   dela — senao sobra madeira em alguns angulos. */
+async function redondo(buf, raioRel) {
+  // o tamanho vem da imagem, nao da largura pedida: withoutEnlargement pode
+  // ter devolvido algo menor, e a mascara precisa bater exatamente
+  const m = await sharp(buf).metadata();
+  const lado = m.width;
+  const r = Math.round(lado * raioRel);
+  const mascara = Buffer.from(
+    `<svg width="${lado}" height="${m.height}">` +
+    `<circle cx="${lado / 2}" cy="${m.height / 2}" r="${r}" fill="#fff"/></svg>`
+  );
+  return sharp(buf)
+    .composite([{ input: mascara, blend: 'dest-in' }])
+    .png()
+    .toBuffer();
+}
+
 function recortar(img, meta, { ratio, zoom = 1, foco = 0, focoX = 0 }) {
   if (!ratio) return img;
   let w = meta.width;
@@ -170,9 +193,10 @@ function recortar(img, meta, { ratio, zoom = 1, foco = 0, focoX = 0 }) {
     for (const w of d.larguras) {
       let img = sharp(origem, OPT).rotate();
       img = recortar(img, meta, d);
-      await img
-        .resize({ width: w, withoutEnlargement: true })
-        .webp({ quality: d.q || 76, effort: 6 })
+      let saida = await img.resize({ width: w, withoutEnlargement: true }).toBuffer();
+      if (d.raio) saida = await redondo(saida, d.raio);
+      await sharp(saida)
+        .webp({ quality: d.q || 76, effort: 6, alphaQuality: 100 })
         .toFile(path.join(OUT, `${d.nome}-${w}.webp`));
       gerados++;
     }

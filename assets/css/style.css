@@ -496,9 +496,13 @@ button{font:inherit;color:inherit}
   aspect-ratio:1;
 }
 .hero__disco{position:absolute;inset:0}
+/* A imagem ja vem recortada em circulo, com fundo transparente (ver `raio` em
+   tools/build-destaques.js). Entao a sombra tem que seguir o ALFA, nao a caixa:
+   box-shadow desenharia um circulo maior que a pizza, com um halo solto em
+   volta. drop-shadow acompanha o formato real. */
 .hero__disco img{
-  width:100%;height:100%;border-radius:50%;object-fit:cover;
-  box-shadow:0 40px 80px -30px rgba(0,0,0,.95),0 0 0 1px rgba(251,246,236,.08);
+  width:100%;height:100%;object-fit:contain;
+  filter:drop-shadow(0 24px 30px rgba(0,0,0,.5));
 }
 /* giro continuo lentissimo: a pizza "assa" enquanto a pagina esta parada */
 /* 36s da uma volta: em 3 segundos de olhada a pizza anda 30 graus, o bastante
